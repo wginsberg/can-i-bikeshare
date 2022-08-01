@@ -38,7 +38,53 @@
         <a href="leaflet.html">Leaflet Demo</a>
         <div id="map"></div>
         <script type="text/javascript">
-            let cache = new pmtiles.ProtocolCache();
+            console.info("-------------------INTERCEPTING window.fetch-------------------")
+            const original = window.fetch
+            const patched = (url, ...args) => {
+                if (!!url && typeof(url) === 'string' && url.endsWith("tiles.pmtiles")) {
+                    if (!!args && typeof(args) == 'object' && args.length >= 1) {
+                        if (!!args[0] && typeof(args[0]) == 'object') {
+                            const [{ headers }] = args
+                            const range = headers?.Range ?? 'bytes=0-0'
+                            const [start, end] = range.slice('bytes='.length).split('-').map(s => Number(s))
+
+                            console.info("!!! Assuming this is a pmtile request!!!")
+                            console.log([start, end])
+                            if (!!window.william) {
+                                const data = window.william.slice(start, end + 1)
+                                const options = {
+                                    status: 206,
+                                    headers: {
+                                        'Content-type': 'application/pbf',
+                                        'Accept-Ranges': 'bytes',
+                                        'Content-Length': end - start + 1
+                                    }
+                                }
+                                console.log(data, options)
+                                console.log(data.size, 'bytes')
+                                // TODO actual error handling
+                                const res = new Response(data, options)
+                                return new Promise((resolve, reject) => resolve(res))
+                            } else {
+                                console.info("!!! did not find pmtile golbal var")
+                            }
+
+                        }
+                    }
+                }
+                return original(url, ...args)
+            }
+            window.fetch = patched
+        </script>
+        <script type="module">
+            await fetch("http://localhost:3857/tiles.pmtiles")
+                .then(response => response.blob())
+                .then(blob => {
+                    console.info("-------------------FETCHED pmtiles -------------------")
+                    window.william = blob
+                })
+
+                let cache = new pmtiles.ProtocolCache();
             maplibregl.addProtocol("pmtiles",cache.protocol);
             const map = new maplibregl.Map({
               container: 'map'
