@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Protomaps Leaflet Demo</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="https://unpkg.com/protomaps@1.19.0/dist/protomaps.min.js"></script>
+
+        <link rel="prefetch" href="bikeshare.json">
+        <link rel="prefetch" href="distance.json">
+
+        <style>
+            body, #map {
+                height:100vh;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="gl.html">GL Demo</a>
+        <div id="map"></div>
+        <script type="text/javascript">
+            const map = L.map('map')
+            const markers = {}
+
+            const p = new protomaps.PMTiles("tiles.pmtiles")
+            p.metadata().then(m => {
+                let bounds_str = m.bounds.split(',')
+                let bounds = [[+bounds_str[1],+bounds_str[0]],[+bounds_str[3],+bounds_str[2]]]
+                layer = protomaps.leafletLayer({attribution:'<a href="https://protomaps.com">Protomaps</a> © <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',url:p,bounds:bounds})
+                layer.addTo(map)
+                map.fitBounds(bounds)
+            }).then(() => {
+                return Promise.all([
+                    fetch("bikeshare.json").then(res => res.json()),
+                    fetch("distance.json").then(res => res.json())
+                ])
+            }).then(([bikeshare, distance]) => {
+                const { stations } = bikeshare
+                // console.log(bikeshare)
+                for (station of stations) {
+                    const {stnid, lat, lng} = station
+                    const marker = L.marker([lat, lng])
+                    marker.addTo(map)
+                    markers[stnid] = marker
+                    marker.on('click', () => {
+                        const inPolygon = new Set(distance[stnid])
+                        for (const other of stations) {
+                            // console.log(other)
+                            const opacity = inPolygon.has(other.stnid)
+                                ? 1
+                                : 0.2
+                            markers[other.stnid].setOpacity(opacity)
+                        }
+                    })
+                }
+            })
+        </script>
+    </body>
+</html>
