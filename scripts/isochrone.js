@@ -80,9 +80,22 @@ const bikeshareData = await readFile(source)
 // 40, 60 ✅
 // 60, 80 ✅
 // 80, 100 ✅
+// 100, 120 ✅
 
-for(const station of bikeshareData.slice(80, 100)) {
-    console.info(station)
-    await processStation(station)
-    console.log('.')
+// 120, 320 ✅
+
+// 320, 440
+
+for (let i = 0; i < 6; i++) {
+    const start = 320 + (20 * i)
+    const end = 340 + (20 * i)
+    console.log(`------------ FETCHING station range ${start} - ${end} ------------`)
+    for(const station of bikeshareData.slice(start, end)) {
+        console.info(station)
+        await processStation(station)
+        console.log('.')
+    }
+
+    console.log('waiting 60s ...')
+    await new Promise(resolve => setTimeout(resolve, 60 * 1000))
 }
