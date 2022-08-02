@@ -3,3 +3,7 @@
     ```
     ORS_KEY=<your api key>
     ```
+
+## TODO
+* Reduce size of `isochrones.json` by discarding unused fields from ORS responses
+* Verify discontinuos isochrones are handled (i.e. stations near don valley)

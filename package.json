@@ -10,12 +10,14 @@
   "scripts": {
     "get-bikeshare": "node scripts/bikeshare.js",
     "get-isochrone": "node scripts/isochrone.js",
+    "get-distance": "node scripts/distance.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "point-in-polygon": "^1.1.0"
   }
 }

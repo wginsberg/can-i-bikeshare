@@ -75,7 +75,13 @@ const bikeshareData = await readFile(source)
         process.exit(1)
     })
 
-for(const station of bikeshareData.slice(0, 20)) {
+// 0, 20  ✅
+// 20, 40 ✅
+// 40, 60 ✅
+// 60, 80 ✅
+// 80, 100 ✅
+
+for(const station of bikeshareData.slice(80, 100)) {
     console.info(station)
     await processStation(station)
     console.log('.')
