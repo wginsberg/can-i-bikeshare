@@ -42,7 +42,7 @@
 
                 for (station of stations) {
                     const {stnid, lat, lng} = station
-                    const marker = L.marker([lat, lng])
+                    const marker = L.marker([lat, lng], {riseOnHover:true})
                     marker.addTo(map)
                     markers[stnid] = marker
                     marker.on('click', () => {
@@ -54,8 +54,8 @@
                         }
 
                         const inPolygon = new Set(distance[stnid])
+                        inPolygon.add(stnid)
                         for (const other of stations) {
-                            // console.log(other)
                             const opacity = inPolygon.has(other.stnid)
                                 ? 1
                                 : 0.2
