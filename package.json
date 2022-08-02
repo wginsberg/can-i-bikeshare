@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "bikeshare-app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
+  "description": "",
+  "main": "maplibre-gl.js",
+  "scripts": {
+    "get-bikeshare": "node scripts/bikeshare.js",
+    "get-isochrone": "node scripts/isochrone.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
