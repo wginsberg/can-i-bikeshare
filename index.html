@@ -42,7 +42,8 @@
                 const { stations } = bikeshare
 
                 for (station of stations) {
-                    const {stnid, lat, lng} = station
+                    const {lat, lng} = station
+                    const stnid = Number(station.stnid) // cast to string from Number
                     const marker = L.circleMarker([lat, lng], {radius:5, opacity: 0, fillOpacity: 0.5, weight : 10})
                     marker.addTo(map)
                     markers[stnid] = marker
@@ -59,12 +60,13 @@
                         const inPolygon = new Set(distance[stnid])
                         inPolygon.add(stnid)
                         for (const other of stations) {
-                            const isInPolygon = inPolygon.has(other.stnid)
+                            const otherStnId = Number(other.stnid)
+                            const isInPolygon = inPolygon.has(otherStnId)
                             const style = isInPolygon
                                 ? { color: 'green', fillOpacity: 0.75 }
                                 : { color: 'red', fillOpacity: 0.2 }
-                            markers[other.stnid].setStyle(style)
-                            if (isInPolygon) markers[other.stnid].bringToFront()
+                            markers[otherStnId].setStyle(style)
+                            if (isInPolygon) markers[otherStnId].bringToFront()
                         }
                         markers[stnid].setStyle({ color: 'blue', fillOpacity: 1 })
                     })

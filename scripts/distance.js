@@ -26,12 +26,9 @@ for (const station in stations) {
             const isInPolygon = pointInPolygon([lng, lat], polygon)
             return isInPolygon
         })
-    
-    console.log(inPolygon.map(id => stations[id].name))
-    console.log(inPolygon.length)
-    console.log('.')
+        .map(stnid => Number(stnid)) // store as Number instead of string to save space
 
-    distance[station] = inPolygon
+    distance[Number(station)] = inPolygon
 }
 
 await writeFile(target, JSON.stringify(distance))

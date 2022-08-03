@@ -29,7 +29,7 @@ To generate the data from scratch:
     ```
 
 ## TODO
-* Reduce size of `isochrones.json` by discarding unused fields from ORS responses (should result in a 4x reduction)
+* Update isochrone.js to discard unused fields (already reflected in isochrones.json but script not updated yet)
 * Verify discontinuous isochrones are handled (this does not seem to exist so far ... might never happen)
 * make markers look nicer
 * Override byte range requests so server.py can be removed
