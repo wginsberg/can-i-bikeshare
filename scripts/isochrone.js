@@ -84,9 +84,9 @@ const bikeshareData = await readFile(source)
 
 // 120, 320 ✅
 
-// 320, 440
+// 320, 640 ✅
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 16; i++) {
     const start = 320 + (20 * i)
     const end = 340 + (20 * i)
     console.log(`------------ FETCHING station range ${start} - ${end} ------------`)
