@@ -42,29 +42,44 @@
 
                 for (station of stations) {
                     const {stnid, lat, lng} = station
-                    const marker = L.marker([lat, lng], {riseOnHover:true})
+                    const marker = L.circleMarker([lat, lng], {radius:5, fillOpacity: 0.5,weight : 0})
                     marker.addTo(map)
                     markers[stnid] = marker
                     marker.on('click', () => {
                         const isochrone= isochrones[stnid]
                         if (isochrone) {
                             const polygonData = isochrone.isochrone.features[0].geometry.coordinates[0]
-                            polygon = L.polygon(polygonData, { color: 'green', opacity: 0.5})
+                            polygon = L.polygon(polygonData, { color: 'green' })
                             polygon.addTo(map)
                         }
 
                         const inPolygon = new Set(distance[stnid])
                         inPolygon.add(stnid)
                         for (const other of stations) {
-                            const opacity = inPolygon.has(other.stnid)
-                                ? 1
-                                : 0.2
-                            markers[other.stnid].setOpacity(opacity)
+                            const isInPolygon = inPolygon.has(other.stnid)
+                            const style = isInPolygon
+                                ? { color: 'green', fillOpacity: 0.5 }
+                                : { color: 'red', fillOpacity: 0.2 }
+                            markers[other.stnid].setStyle(style)
+                            if (isInPolygon) markers[other.stnid].bringToFront()
                         }
+                        markers[stnid].setStyle({ color: 'blue', fillOpacity: 1 })
+
                         console.log(stnid)
                     })
                 }
             })
+
+        /* Change marker radius size on zoom */
+        map.on('zoomend', function() {
+            const currentZoom = map .getZoom();
+            const clampedZoom = Math.min(20, Math.max(10, currentZoom))
+            const radius = clampedZoom - 8
+            for (const stndin in markers) {
+                markers[stndin].setRadius(radius)
+            }
+        });
+
         </script>
     </body>
 </html>
