@@ -33,3 +33,4 @@ To generate the data from scratch:
 * Verify discontinuous isochrones are handled (this does not seem to exist so far ... might never happen)
 * make markers look nicer
 * Override byte range requests so server.py can be removed
+* reduce size of distance.json with gzip

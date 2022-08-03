@@ -7,10 +7,6 @@
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script src="https://unpkg.com/protomaps@1.19.0/dist/protomaps.min.js"></script>
 
-        <link rel="prefetch" href="bikeshare.json">
-        <link rel="prefetch" href="distance.json">
-        <link rel="prefetch" href="isochrones.json">
-
         <style>
             body, #map {
                 height:100vh;
@@ -36,7 +32,6 @@
                 return Promise.all([
                     fetch("bikeshare.json").then(res => res.json()),
                     fetch("distance.json").then(res => res.json()),
-                    fetch("isochrones.json").then(res => res.json())
                 ])
             }).then(([bikeshare, distance, isochrones]) => {
                 const { stations } = bikeshare
@@ -48,15 +43,6 @@
                     marker.addTo(map)
                     markers[stnid] = marker
                     marker.on('click', () => {
-                        // const isochrone= isochrones[stnid]
-                        // if (isochrone) {
-                        //     const polygonData = isochrone.isochrone.features[0].geometry.coordinates[0]
-                        //         .map(([lng, lat]) => ([lat, lng]))
-                        //     if (polygon) polygon.removeFrom(map)
-                        //     polygon = L.polygon(polygonData, { color: 'green', weight: 0 })
-                        //     polygon.addTo(map)
-                        // }
-
                         const inPolygon = new Set(distance[stnid])
                         inPolygon.add(stnid)
                         for (const other of stations) {
