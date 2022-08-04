@@ -13,10 +13,8 @@ const stations = await readFile(source)
 
 const distance = {}
 
-for (const station in stations) {
-    console.log(station, stations[station].name)
-    
-    const polygon = stations[station].isochrone.features[0].geometry.coordinates[0]
+for (const station in stations) {    
+    const polygon = stations[station].iso
 
     // Find stations inside this polygon
     const inPolygon = Object.keys(stations)
