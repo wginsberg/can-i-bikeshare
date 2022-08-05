@@ -7,6 +7,15 @@ const API_URL = "https://api.openrouteservice.org/v2/isochrones/cycling-regular"
 const source = "bikeshare.json"
 const target = "isochrones.json"
 
+if (process.argv.length !== 4) {
+    console.error('Usage: npm run get-isochrone <start> <end>\n')
+    console.error('E.g. download the first 20 stations:\n\tnpm run get-isochrone 0 20')
+    process.exit(1)
+}
+
+const [rangeStart, rangeEnd] = process.argv.slice(2, 4).map(s => Number(s))
+const range = rangeEnd - rangeStart
+
 /*
 * Get data for a single station
 */
@@ -20,7 +29,6 @@ async function getIsochrone({ lat, lng }) {
         method: 'POST',
         body: JSON.stringify(fetchBody),
         headers: {
-            // 'Accept': 'application/json',
             'Authorization': process.env.ORS_KEY,
             'Content-Type': 'application/json; charset=utf-8'
         }
@@ -52,12 +60,10 @@ async function processStation(station) {
 
     await getIsochrone({ lat, lng })
         .then(res => res.json())
-        .then(json => ({
+        .then(json => json.features[0].geometry.coordinates[0])
+        .then(iso => ({
             ...existingIsochrones,
-            [stnid]: {
-                ...station,
-                isochrone: json
-            }
+            [stnid]: { lat, lng, iso }
         }))
         .then(json => JSON.stringify(json))
         .then(text => writeFile(target, text))
@@ -75,20 +81,10 @@ const bikeshareData = await readFile(source)
         process.exit(1)
     })
 
-// 0, 20  ✅
-// 20, 40 ✅
-// 40, 60 ✅
-// 60, 80 ✅
-// 80, 100 ✅
-// 100, 120 ✅
-
-// 120, 320 ✅
-
-// 320, 640 ✅
-
-for (let i = 0; i < 16; i++) {
-    const start = 320 + (20 * i)
-    const end = 340 + (20 * i)
+// Fetch 20 items/minute to stay below API rate limit
+for (let i = 0; i < range / 20; i++) {
+    const start = rangeStart + i * 20
+    const end = rangeStart + (i + 1) * 20
     console.log(`------------ FETCHING station range ${start} - ${end} ------------`)
     for(const station of bikeshareData.slice(start, end)) {
         console.info(station)
