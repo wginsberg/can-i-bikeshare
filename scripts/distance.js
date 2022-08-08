@@ -24,7 +24,7 @@ for (const station in stations) {
             const isInPolygon = pointInPolygon([lng, lat], polygon)
             return isInPolygon
         })
-        .map(stnid => Number(stnid)) // store as Number instead of string to save space
+        .map(stnid => Number(stnid))
 
     distance[Number(station)] = inPolygon
 }

@@ -47,7 +47,7 @@
 
                 for (station of stations) {
                     const {lat, lng} = station
-                    const stnid = Number(station.stnid) // cast to string from Number
+                    const stnid = Number(station.stnid)
                     const marker = L.circleMarker([lat, lng], {radius:5, opacity: 0, fillOpacity: 0.5, weight : 10})
                     marker.addTo(map)
                     markers[stnid] = marker
