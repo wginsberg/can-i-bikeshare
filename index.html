@@ -41,6 +41,7 @@
                 return Promise.all([
                     fetch("bikeshare.json").then(res => res.json()),
                     fetch("distance.json").then(res => res.json()),
+                    fetch("isochrones.json").then(res => res.json()),
                 ])
             }).then(([bikeshare, distance, isochrones]) => {
                 const { stations } = bikeshare
@@ -64,6 +65,15 @@
                             if (isInPolygon) markers[otherStnId].bringToFront()
                         }
                         markers[stnid].setStyle({ color: 'blue', fillOpacity: 1 })
+
+                        const bbox = isochrones[stnid].bbox.reverse()
+                        const iso = isochrones[stnid].iso.map(e => e.reverse())
+                        console.log(iso)
+                        console.log(bbox)
+                        map.fitBounds([bbox.slice(0, 2), bbox.slice(2, 4)])
+                        polygon?.remove()
+                        polygon = L.polygon(iso, { color: 'black', weight: 1, opacity: 0.5 })
+                        polygon.addTo(map)
                     })
                 }
             })
