@@ -48,7 +48,7 @@
                 for (station of stations) {
                     const {lat, lng} = station
                     const stnid = Number(station.stnid)
-                    const marker = L.circleMarker([lat, lng], {radius:5, opacity: 0, fillOpacity: 0.5, weight : 10})
+                    const marker = L.circleMarker([lat, lng], {radius:5, opacity: 0, fill: 'blue', fillOpacity: 0.5, weight : 10})
                     marker.addTo(map)
                     markers[stnid] = marker
                     marker.on('click', () => {
@@ -59,7 +59,7 @@
                             const isInPolygon = inPolygon.has(otherStnId)
                             const style = isInPolygon
                                 ? { color: 'green', fillOpacity: 0.75 }
-                                : { color: 'red', fillOpacity: 0.2 }
+                                : { color: 'blue', fillOpacity: 0.2 }
                             markers[otherStnId].setStyle(style)
                             if (isInPolygon) markers[otherStnId].bringToFront()
                         }
