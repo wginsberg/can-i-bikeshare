@@ -1,0 +1,25 @@
+name: Update Bikeshare data
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "0 13 * * 1"
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+    - run: npm ci
+    - env:
+        ORS_KEY: ${{ secrets.ORS_KEY }}
+      run: npm run update
+
+    - name: Git Auto Commit
+      uses: stefanzweifel/git-auto-commit-action@v4.14.1
+      with:
+        commit_message: Update Bikeshare data

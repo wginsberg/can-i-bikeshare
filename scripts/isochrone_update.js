@@ -35,7 +35,7 @@ const temp = await readFile(sourceTemp)
 // Fetch isochrone data and update isochrones.json
 const stations = getStationsToProcess(versioned, temp)
 console.log(stations)
-fetchIsochrones(stations)
+await fetchIsochrones(stations)
 
 /*
     Util functious
