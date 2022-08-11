@@ -9,9 +9,10 @@
   "main": "maplibre-gl.js",
   "scripts": {
     "get-bikeshare": "node scripts/bikeshare.js",
-    "get-isochrone": "node scripts/isochrone.js",
+    "get-isochrone": "node scripts/isochrone_get.js",
+    "update-isochrone": "node scripts/bikeshare.js bikeshare_temp.json && node scripts/isochrone_update.js",
     "get-distance": "node scripts/distance.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/isochrone_update.test.js"
   },
   "keywords": [],
   "author": "",

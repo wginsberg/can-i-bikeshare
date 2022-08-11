@@ -4,17 +4,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 const API_URL = "https://api.openrouteservice.org/v2/isochrones/cycling-regular"
-const source = "bikeshare.json"
 const target = "isochrones.json"
-
-if (process.argv.length !== 4) {
-    console.error('Usage: npm run get-isochrone <start> <end>\n')
-    console.error('E.g. download the first 20 stations:\n\tnpm run get-isochrone 0 20')
-    process.exit(1)
-}
-
-const [rangeStart, rangeEnd] = process.argv.slice(2, 4).map(s => Number(s))
-const range = rangeEnd - rangeStart
 
 /*
 * Get data for a single station
@@ -73,25 +63,31 @@ async function processStation(station) {
         })
 }
 
-const bikeshareData = await readFile(source)
-    .then(raw => JSON.parse(raw))
-    .then(({ stations }) => stations)
-    .catch(err => {
-        console.error(err)
-        process.exit(1)
-    })
+async function fetchIsochrones(stations = []) {
+    if (stations.length === 0) return
 
-// Fetch 20 items/minute to stay below API rate limit
-for (let i = 0; i < range / 20; i++) {
-    const start = rangeStart + i * 20
-    const end = rangeStart + (i + 1) * 20
-    console.log(`------------ FETCHING station range ${start} - ${end} ------------`)
-    for(const station of bikeshareData.slice(start, end)) {
-        console.info(station)
-        await processStation(station)
-        console.log('.')
+    // Fetch 20 items/minute to stay below API rate limit
+    const batches = Math.ceil(stations.length / 20)
+
+    for (let i = 0; i <= batches; i++) {
+        const start = i * 20
+        const end = (i + 1) * 20
+        const batch = stations.slice(start, end)
+
+        if (batch.length === 0) continue
+
+        if (i > 0) {
+            console.log('waiting 60s ...')
+            await new Promise(resolve => setTimeout(resolve, 60 * 1000))
+        }
+
+        console.log(`fetching stations ${start} - ${end}`)
+        for(const station of batch) {
+            console.info(station)
+            await processStation(station)
+            console.log('')
+        }
     }
-
-    console.log('waiting 60s ...')
-    await new Promise(resolve => setTimeout(resolve, 60 * 1000))
 }
+
+export { fetchIsochrones }
