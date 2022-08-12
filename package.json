@@ -12,7 +12,8 @@
     "get-isochrone": "node scripts/isochrone_get.js",
     "update-isochrone": "node scripts/bikeshare.js bikeshare_temp.json && node scripts/isochrone_update.js",
     "get-distance": "node scripts/distance.js",
-    "update": "node scripts/bikeshare.js bikeshare_temp.json && node scripts/isochrone_update.js && node scripts/distance && mv bikeshare_temp.json bikeshare.json",
+    "get-meta": "node scripts/meta.js",
+    "update": "npm run update-isochrone && npm run get-distance && mv bikeshare_temp.json bikeshare.json && npm run get-meta",
     "test": "node scripts/isochrone_update.test.js"
   },
   "keywords": [],

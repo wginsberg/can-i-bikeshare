@@ -23,9 +23,11 @@
                 <li><a href="https://github.com/wginsberg/can-i-bikeshare">Source code</a> 📂</li>
                 <li><a href="https://bikeshare-research.org/api/v1/systems/toronto">Bikeshare API</a> 🚲</li>
                 <li><a href="https://openrouteservice.org/">Open Route Service API</a> 🗺🚲</li>
+                <li id="updated-at"></li>
             </ul>
         </footer>
         <script type="text/javascript">
+            /* Create map */
             const map = L.map('map')
             const markers = {}
             let polygon
@@ -79,6 +81,14 @@
             }
         });
 
+        </script>
+        <script type="text/javascript">
+            fetch("meta.json")
+                .then(res => res.json())
+                .then(({ updated }) => {
+                    const dateString = new Date(updated).toDateString()
+                    document.getElementById("updated-at").innerText = `Updated on ${dateString}`
+                })
         </script>
     </body>
 </html>
