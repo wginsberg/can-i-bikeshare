@@ -1,4 +1,9 @@
+body {
+    height:100vh;
+}
+
 #map {
+    height: 75vh;
     margin: auto;
     max-width: 1024px;
     max-height: 720px;
