@@ -9,6 +9,18 @@ const target = process.argv.length >= 3
 
 await fetch(API_URL)
     .then(res => res.text())
+    .then(text => JSON.parse(text))
+    .then((json) => {
+         // discard unused fields
+        const stations = json.stations.map(({ stnid, lat, lng, name}) => ({
+            stnid,
+            lat,
+            lng,
+            name
+        }))
+        return { stations }
+    })
+    .then(json => JSON.stringify(json, null, 4))    // pretty print json
     .then(data => fs.writeFileSync(target, data))
     .then(() => console.log(target))
     .catch(err => {
