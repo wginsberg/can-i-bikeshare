@@ -73,12 +73,6 @@
             "name": "Elizabeth St / Edward St (Bus Terminal)"
         },
         {
-            "stnid": "7013",
-            "lat": "43.646560",
-            "lng": "-79.375274",
-            "name": "Scott St / The Esplanade"
-        },
-        {
             "stnid": "7014",
             "lat": "43.663102",
             "lng": "-79.373181",
@@ -98,8 +92,8 @@
         },
         {
             "stnid": "7017",
-            "lat": "43.647508",
-            "lng": "-79.391484",
+            "lat": "43.646357",
+            "lng": "-79.391206",
             "name": "Widmer St / Adelaide St W"
         },
         {
@@ -107,12 +101,6 @@
             "lat": "43.641529",
             "lng": "-79.386741",
             "name": "Bremner Blvd / Rees St"
-        },
-        {
-            "stnid": "7019",
-            "lat": "43.650702",
-            "lng": "-79.380055",
-            "name": "Temperance St. Station"
         },
         {
             "stnid": "7020",
@@ -560,8 +548,8 @@
         },
         {
             "stnid": "7099",
-            "lat": "43.651295",
-            "lng": "-79.357061",
+            "lat": "43.651393",
+            "lng": "-79.357947",
             "name": "Cherry St / Mill St"
         },
         {
@@ -731,12 +719,6 @@
             "lat": "43.674991",
             "lng": "-79.396273",
             "name": "Davenport Rd / Avenue Rd"
-        },
-        {
-            "stnid": "7130",
-            "lat": "43.674399",
-            "lng": "-79.398660",
-            "name": "Davenport Rd / Bedford Rd"
         },
         {
             "stnid": "7131",
@@ -989,12 +971,6 @@
             "lat": "43.657192",
             "lng": "-79.452559",
             "name": "Dundas St W / Edna Ave"
-        },
-        {
-            "stnid": "7179",
-            "lat": "43.658203",
-            "lng": "-79.450930",
-            "name": "Bloor GO / UP Station (West Toronto Railpath)"
         },
         {
             "stnid": "7180",
@@ -1307,12 +1283,6 @@
             "lat": "43.630254",
             "lng": "-79.420317",
             "name": "Lake Shore Blvd W / Ontario Dr"
-        },
-        {
-            "stnid": "7243",
-            "lat": "43.635201",
-            "lng": "-79.418771",
-            "name": "Exhibition GO Station"
         },
         {
             "stnid": "7244",
@@ -1745,12 +1715,6 @@
             "lat": "43.645665",
             "lng": "-79.415345",
             "name": "Crawford St / Queen St W"
-        },
-        {
-            "stnid": "7330",
-            "lat": "43.669863",
-            "lng": "-79.297786",
-            "name": "Lee Ave / Queen St E"
         },
         {
             "stnid": "7331",
@@ -2396,8 +2360,8 @@
         },
         {
             "stnid": "7453",
-            "lat": "43.664736",
-            "lng": "-79.377579",
+            "lat": "43.664769",
+            "lng": "-79.377260",
             "name": "Jarvis St / Maitland Pl"
         },
         {
@@ -2720,8 +2684,8 @@
         },
         {
             "stnid": "7521",
-            "lat": "43.659040",
-            "lng": "-79.440880",
+            "lat": "43.658653",
+            "lng": "-79.440502",
             "name": "Emerson Ave / Bloor St W"
         },
         {
@@ -2789,12 +2753,6 @@
             "lat": "43.645469",
             "lng": "-79.411084",
             "name": "Walnut Ave / Queen St W"
-        },
-        {
-            "stnid": "7535",
-            "lat": "43.647497",
-            "lng": "-79.406691",
-            "name": "Wolsley St / Palmerston Ave - SMART"
         },
         {
             "stnid": "7536",
@@ -3565,12 +3523,6 @@
             "name": "York University Station (North)"
         },
         {
-            "stnid": "7680",
-            "lat": "43.633464",
-            "lng": "-79.414306",
-            "name": "Princes Gate / Nunavut Dr"
-        },
-        {
             "stnid": "7681",
             "lat": "43.654484",
             "lng": "-79.341057",
@@ -3755,6 +3707,54 @@
             "lat": "43.644246",
             "lng": "-79.416104",
             "name": "Queen St W / Shaw St"
+        },
+        {
+            "stnid": "7713",
+            "lat": "43.650600",
+            "lng": "-79.381285",
+            "name": "Temperance St / Bay St"
+        },
+        {
+            "stnid": "7715",
+            "lat": "43.693187",
+            "lng": "-79.314283",
+            "name": "Lumsden Ave / Cedarvale Ave"
+        },
+        {
+            "stnid": "7716",
+            "lat": "43.646925",
+            "lng": "-79.373319",
+            "name": "Church St / The Esplanade"
+        },
+        {
+            "stnid": "7717",
+            "lat": "43.642579",
+            "lng": "-79.400117",
+            "name": "Niagara St / Portland St"
+        },
+        {
+            "stnid": "7718",
+            "lat": "43.646151",
+            "lng": "-79.399821",
+            "name": "St. Andrew's Playground Park"
+        },
+        {
+            "stnid": "7719",
+            "lat": "43.648420",
+            "lng": "-79.400519",
+            "name": "Wolseley St / Augusta Ave"
+        },
+        {
+            "stnid": "7720",
+            "lat": "43.644395",
+            "lng": "-79.400654",
+            "name": "King St W / Portland St"
+        },
+        {
+            "stnid": "7721",
+            "lat": "43.646357",
+            "lng": "-79.391206",
+            "name": "Widmer St / King St W"
         }
     ]
 }
