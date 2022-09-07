@@ -49,6 +49,10 @@ async function processStation(station) {
         : defaultIsochrones
 
     await getIsochrone({ lat, lng })
+        .then(res => {
+            if (!res.ok) throw new Error(res.statusText)
+            return res
+        })
         .then(res => res.json())
         .then(json => json.features[0].geometry.coordinates[0])
         .then(iso => ({
