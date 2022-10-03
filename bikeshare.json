@@ -631,12 +631,6 @@
             "name": "Liberty St / Fraser Ave Green P"
         },
         {
-            "stnid": "7113",
-            "lat": "43.665278",
-            "lng": "-79.368333",
-            "name": "Parliament St / Aberdeen Ave"
-        },
-        {
             "stnid": "7114",
             "lat": "43.664524",
             "lng": "-79.367930",
@@ -719,6 +713,12 @@
             "lat": "43.674991",
             "lng": "-79.396273",
             "name": "Davenport Rd / Avenue Rd"
+        },
+        {
+            "stnid": "7130",
+            "lat": "43.674446",
+            "lng": "-79.398331",
+            "name": "Davenport Rd / Bedford Rd"
         },
         {
             "stnid": "7131",
@@ -1499,12 +1499,6 @@
             "lat": "43.668427",
             "lng": "-79.387250",
             "name": "Charles St W / Balmuto St - SMART"
-        },
-        {
-            "stnid": "7282",
-            "lat": "43.650152",
-            "lng": "-79.379856",
-            "name": "Adelaide St W / Bay St - SMART"
         },
         {
             "stnid": "7283",
@@ -2803,12 +2797,6 @@
             "name": "Bellevue Square Park"
         },
         {
-            "stnid": "7544",
-            "lat": "43.654565",
-            "lng": "-79.384679",
-            "name": "Foster Pl / Elizabeth St"
-        },
-        {
             "stnid": "7545",
             "lat": "43.656076",
             "lng": "-79.393259",
@@ -2828,8 +2816,8 @@
         },
         {
             "stnid": "7548",
-            "lat": "43.665705",
-            "lng": "-79.387318",
+            "lat": "43.665405",
+            "lng": "-79.387976",
             "name": "St Joseph St / Bay St - SMART"
         },
         {
@@ -3592,55 +3580,55 @@
             "stnid": "7693",
             "lat": "43.655948",
             "lng": "-79.375588",
-            "name": "Mutual St / Shuter St (Arena Gardens)-SMART V"
+            "name": "Mutual St / Shuter St (Arena Gardens)"
         },
         {
             "stnid": "7694",
             "lat": "43.707212",
             "lng": "-79.295287",
-            "name": "Victoria Park Ave / Dawes Rd - SMART Vault"
+            "name": "Victoria Park Ave / Dawes Rd"
         },
         {
             "stnid": "7695",
             "lat": "43.667763",
             "lng": "-79.308117",
-            "name": "Queen St E / Joseph Duggan Rd - SMART Vault"
+            "name": "Queen St E / Joseph Duggan Rd"
         },
         {
             "stnid": "7696",
             "lat": "43.675081",
             "lng": "-79.306870",
-            "name": "Hayworth Cres / Kingston Rd - SMART Vault"
+            "name": "Heyworth Cres / Kingston Rd"
         },
         {
             "stnid": "7697",
             "lat": "43.673925",
             "lng": "-79.461543",
-            "name": "St Clair Ave W / Cloverdale Rd - SMART Vault"
+            "name": "St Clair Ave W / Cloverdale Rd"
         },
         {
             "stnid": "7698",
             "lat": "43.675425",
             "lng": "-79.454781",
-            "name": "St Clair Ave W / Caledonia Rd - SMART Vault"
+            "name": "St Clair Ave W / Caledonia Rd"
         },
         {
             "stnid": "7699",
             "lat": "43.678177",
             "lng": "-79.435364",
-            "name": "St Clair Ave W / Oakwood Ave - SMART Vault"
+            "name": "St Clair Ave W / Oakwood Ave"
         },
         {
             "stnid": "7700",
             "lat": "43.680050",
             "lng": "-79.434690",
-            "name": "St Clair Ave W / Robina Ave - SMART Vault"
+            "name": "St Clair Ave W / Robina Ave"
         },
         {
             "stnid": "7701",
             "lat": "43.646743",
             "lng": "-79.446895",
-            "name": "Roncesvalles Ave / Fermanagh Ave-SMART vault"
+            "name": "Roncesvalles Ave / Fermanagh Ave"
         },
         {
             "stnid": "7702",
@@ -3658,19 +3646,19 @@
             "stnid": "7704",
             "lat": "43.680877",
             "lng": "-79.330449",
-            "name": "24 Mountjoy Ave - SMART Vault"
+            "name": "24 Mountjoy Ave"
         },
         {
             "stnid": "7705",
             "lat": "43.662366",
             "lng": "-79.341334",
-            "name": "Colgate Ave / Carlaw Ave - SMART Vault"
+            "name": "Colgate Ave / Carlaw Ave"
         },
         {
             "stnid": "7706",
             "lat": "43.679135",
             "lng": "-79.326316",
-            "name": "Felstead Ave/Gillard Ave (Monarch PK)-SMART V"
+            "name": "Felstead Ave/Gillard Ave (Monarch Park)"
         },
         {
             "stnid": "7707",
@@ -3755,6 +3743,18 @@
             "lat": "43.646357",
             "lng": "-79.391206",
             "name": "Widmer St / King St W"
+        },
+        {
+            "stnid": "7724",
+            "lat": "43.668234",
+            "lng": "-79.370264",
+            "name": "Wellesley St E / Parliament St"
+        },
+        {
+            "stnid": "7725",
+            "lat": "43.679188",
+            "lng": "-79.390719",
+            "name": "Yonge St / Macpherson Ave"
         }
     ]
 }
