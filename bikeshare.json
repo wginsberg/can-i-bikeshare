@@ -91,12 +91,6 @@
             "name": "Bay St / Queens Quay W (Ferry Terminal)"
         },
         {
-            "stnid": "7017",
-            "lat": "43.646357",
-            "lng": "-79.391206",
-            "name": "Widmer St / Adelaide St W"
-        },
-        {
             "stnid": "7018",
             "lat": "43.641529",
             "lng": "-79.386741",
@@ -329,12 +323,6 @@
             "lat": "43.643473",
             "lng": "-79.390477",
             "name": "Front St W / Blue Jays Way"
-        },
-        {
-            "stnid": "7060",
-            "lat": "43.652123",
-            "lng": "-79.367139",
-            "name": "Princess St / Adelaide St E"
         },
         {
             "stnid": "7061",
@@ -1285,6 +1273,12 @@
             "name": "Lake Shore Blvd W / Ontario Dr"
         },
         {
+            "stnid": "7243",
+            "lat": "43.635201",
+            "lng": "-79.418771",
+            "name": "Exhibition GO Station"
+        },
+        {
             "stnid": "7244",
             "lat": "43.633473",
             "lng": "-79.425679",
@@ -1796,8 +1790,8 @@
         },
         {
             "stnid": "7345",
-            "lat": "43.640757",
-            "lng": "-79.343144",
+            "lat": "43.640835",
+            "lng": "-79.342907",
             "name": "Cherry Beach Sports Field (55 Unwin Ave)"
         },
         {
@@ -2203,12 +2197,6 @@
             "name": "The Queensway at South Kingsway"
         },
         {
-            "stnid": "7426",
-            "lat": "43.636804",
-            "lng": "-79.408832",
-            "name": "Fleet St / Garrison Rd (Fort York)"
-        },
-        {
             "stnid": "7427",
             "lat": "43.663162",
             "lng": "-79.309765",
@@ -2612,8 +2600,8 @@
         },
         {
             "stnid": "7505",
-            "lat": "43.652458",
-            "lng": "-79.366433",
+            "lat": "43.653505",
+            "lng": "-79.366769",
             "name": "Ontario St / Adelaide St E -SMART"
         },
         {
@@ -2627,12 +2615,6 @@
             "lat": "43.658816",
             "lng": "-79.367318",
             "name": "Berkeley St / Dundas St E - SMART"
-        },
-        {
-            "stnid": "7509",
-            "lat": "43.651814",
-            "lng": "-79.366194",
-            "name": "Ontario St / King St E"
         },
         {
             "stnid": "7514",
@@ -2816,8 +2798,8 @@
         },
         {
             "stnid": "7548",
-            "lat": "43.665405",
-            "lng": "-79.387976",
+            "lat": "43.665880",
+            "lng": "-79.387610",
             "name": "St Joseph St / Bay St - SMART"
         },
         {
@@ -3511,6 +3493,12 @@
             "name": "York University Station (North)"
         },
         {
+            "stnid": "7680",
+            "lat": "43.633464",
+            "lng": "-79.414306",
+            "name": "Princes Gate / Nunavut Dr"
+        },
+        {
             "stnid": "7681",
             "lat": "43.654484",
             "lng": "-79.341057",
@@ -3640,7 +3628,7 @@
             "stnid": "7703",
             "lat": "43.661364",
             "lng": "-79.364117",
-            "name": "Oak st / Sackville st"
+            "name": "Oak St / Sackville St"
         },
         {
             "stnid": "7704",
@@ -3755,6 +3743,54 @@
             "lat": "43.679188",
             "lng": "-79.390719",
             "name": "Yonge St / Macpherson Ave"
+        },
+        {
+            "stnid": "7728",
+            "lat": "43.658550",
+            "lng": "-79.449766",
+            "name": "Randolph Ave / Perth Ave"
+        },
+        {
+            "stnid": "7729",
+            "lat": "43.650164",
+            "lng": "-79.482969",
+            "name": "265 Armadale Ave"
+        },
+        {
+            "stnid": "7730",
+            "lat": "43.636804",
+            "lng": "-79.408832",
+            "name": "800 Fleet Street"
+        },
+        {
+            "stnid": "7731",
+            "lat": "43.680350",
+            "lng": "-79.283570",
+            "name": "Victoria Park Ave / Kingston Rd"
+        },
+        {
+            "stnid": "7735",
+            "lat": "43.692000",
+            "lng": "-79.265570",
+            "name": "Birchcliff Ave / Kingston Rd"
+        },
+        {
+            "stnid": "7736",
+            "lat": "43.693822",
+            "lng": "-79.262896",
+            "name": "Birchmount Rd / Kingston Rd"
+        },
+        {
+            "stnid": "7737",
+            "lat": "43.697802",
+            "lng": "-79.256087",
+            "name": "Kingston Rd / Glen Everest Rd"
+        },
+        {
+            "stnid": "7738",
+            "lat": "43.703185",
+            "lng": "-79.258429",
+            "name": "Highview Ave / Kennedy Rd"
         }
     ]
 }
