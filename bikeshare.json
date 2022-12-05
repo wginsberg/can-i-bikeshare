@@ -1322,8 +1322,8 @@
         },
         {
             "stnid": "7251",
-            "lat": "43.668372",
-            "lng": "-79.393586",
+            "lat": "43.668500",
+            "lng": "-79.394624",
             "name": "The Royal Ontario Museum (Bloor St Entrance)"
         },
         {
@@ -2491,12 +2491,6 @@
             "name": "Neil McLellan Park"
         },
         {
-            "stnid": "7482",
-            "lat": "43.690111",
-            "lng": "-79.292634",
-            "name": "Danforth Ave / Sibley Ave"
-        },
-        {
             "stnid": "7483",
             "lat": "43.678685",
             "lng": "-79.297974",
@@ -2774,8 +2768,8 @@
         },
         {
             "stnid": "7543",
-            "lat": "43.653706",
-            "lng": "-79.401929",
+            "lat": "43.653751",
+            "lng": "-79.402825",
             "name": "Bellevue Square Park"
         },
         {
@@ -3361,12 +3355,6 @@
             "name": "St Clair W Subway - Heath Entrance"
         },
         {
-            "stnid": "7653",
-            "lat": "43.655526",
-            "lng": "-79.457389",
-            "name": "Bloor St W / Indian Rd"
-        },
-        {
             "stnid": "7654",
             "lat": "43.654124",
             "lng": "-79.463639",
@@ -3769,28 +3757,178 @@
             "name": "Victoria Park Ave / Kingston Rd"
         },
         {
+            "stnid": "7732",
+            "lat": "43.688241",
+            "lng": "-79.270466",
+            "name": "Kingston Rd / Warden Ave"
+        },
+        {
+            "stnid": "7733",
+            "lat": "43.692948",
+            "lng": "-79.283400",
+            "name": "Pharmacy Ave / Danforth Ave"
+        },
+        {
+            "stnid": "7734",
+            "lat": "43.695019",
+            "lng": "-79.271807",
+            "name": "Danforth Ave / Warden Ave"
+        },
+        {
             "stnid": "7735",
-            "lat": "43.692000",
-            "lng": "-79.265570",
+            "lat": "43.691688",
+            "lng": "-79.265027",
             "name": "Birchcliff Ave / Kingston Rd"
         },
         {
             "stnid": "7736",
-            "lat": "43.693822",
-            "lng": "-79.262896",
+            "lat": "43.694013",
+            "lng": "-79.262572",
             "name": "Birchmount Rd / Kingston Rd"
         },
         {
             "stnid": "7737",
-            "lat": "43.697802",
-            "lng": "-79.256087",
+            "lat": "43.697490",
+            "lng": "-79.256551",
             "name": "Kingston Rd / Glen Everest Rd"
         },
         {
             "stnid": "7738",
-            "lat": "43.703185",
-            "lng": "-79.258429",
+            "lat": "43.702419",
+            "lng": "-79.256317",
             "name": "Highview Ave / Kennedy Rd"
+        },
+        {
+            "stnid": "7739",
+            "lat": "43.706436",
+            "lng": "-79.251044",
+            "name": "Kingston Rd / Ridgemoor Ave"
+        },
+        {
+            "stnid": "7740",
+            "lat": "43.710598",
+            "lng": "-79.254118",
+            "name": "Sharpe St / Park St (Sandown Park)"
+        },
+        {
+            "stnid": "7741",
+            "lat": "43.648657",
+            "lng": "-79.458111",
+            "name": "Howard Park Ave / Parkside Dr"
+        },
+        {
+            "stnid": "7742",
+            "lat": "43.694150",
+            "lng": "-79.457826",
+            "name": "Eglinton Ave W / Prospect Cemetery"
+        },
+        {
+            "stnid": "7743",
+            "lat": "43.692632",
+            "lng": "-79.462754",
+            "name": "Eglinton Ave W / Gilbert Ave"
+        },
+        {
+            "stnid": "7744",
+            "lat": "43.683230",
+            "lng": "-79.455765",
+            "name": "Rogers Rd / Prospect Cemetery"
+        },
+        {
+            "stnid": "7745",
+            "lat": "43.688028",
+            "lng": "-79.460265",
+            "name": "Bert Robinson Park"
+        },
+        {
+            "stnid": "7746",
+            "lat": "43.701630",
+            "lng": "-79.440990",
+            "name": "Marlee Ave / York Beltline Trail"
+        },
+        {
+            "stnid": "7747",
+            "lat": "43.694660",
+            "lng": "-79.453770",
+            "name": "Eglinton Ave W / Ennerdale Rd"
+        },
+        {
+            "stnid": "7748",
+            "lat": "43.650169",
+            "lng": "-79.496335",
+            "name": "Bloor St W / Old Mill Trl"
+        },
+        {
+            "stnid": "7749",
+            "lat": "43.649200",
+            "lng": "-79.506020",
+            "name": "Wendover Rd / Bloor St W (Green P)"
+        },
+        {
+            "stnid": "7750",
+            "lat": "43.689766",
+            "lng": "-79.293953",
+            "name": "Luttrell Ave / Danforth Ave"
+        },
+        {
+            "stnid": "7751",
+            "lat": "43.648390",
+            "lng": "-79.510080",
+            "name": "Willingdon Blvd / Bloor St W (Green P)"
+        },
+        {
+            "stnid": "7752",
+            "lat": "43.635764",
+            "lng": "-79.467492",
+            "name": "1926 Lake Shore Blvd W"
+        },
+        {
+            "stnid": "7753",
+            "lat": "43.623692",
+            "lng": "-79.483813",
+            "name": "36 Park Lawn Rd"
+        },
+        {
+            "stnid": "7754",
+            "lat": "43.699327",
+            "lng": "-79.449363",
+            "name": "Walter Saunders Park"
+        },
+        {
+            "stnid": "7755",
+            "lat": "43.635606",
+            "lng": "-79.493462",
+            "name": "Park Lawn Rd / Berry Rd"
+        },
+        {
+            "stnid": "7756",
+            "lat": "43.761174",
+            "lng": "-79.511445",
+            "name": "Tobemory Dr / Finch Hydro Recreational Trail"
+        },
+        {
+            "stnid": "7757",
+            "lat": "43.642890",
+            "lng": "-79.394635",
+            "name": "The Well"
+        },
+        {
+            "stnid": "7758",
+            "lat": "43.760362",
+            "lng": "-79.516278",
+            "name": "Driftwood Ave / Finch Hydro Trail"
+        },
+        {
+            "stnid": "7759",
+            "lat": "43.772445",
+            "lng": "-79.511912",
+            "name": "The Pond Rd / Shoreham Dr"
+        },
+        {
+            "stnid": "7760",
+            "lat": "43.623130",
+            "lng": "-79.491800",
+            "name": "Grand Avenue Park"
         }
     ]
 }
