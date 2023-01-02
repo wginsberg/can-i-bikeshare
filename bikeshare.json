@@ -316,7 +316,7 @@
             "stnid": "7058",
             "lat": "43.663700",
             "lng": "-79.400053",
-            "name": "Huron/ Harbord St"
+            "name": "Huron St / Harbord St"
         },
         {
             "stnid": "7059",
@@ -3575,12 +3575,6 @@
             "lat": "43.675081",
             "lng": "-79.306870",
             "name": "Heyworth Cres / Kingston Rd"
-        },
-        {
-            "stnid": "7697",
-            "lat": "43.673925",
-            "lng": "-79.461543",
-            "name": "St Clair Ave W / Cloverdale Rd"
         },
         {
             "stnid": "7698",
