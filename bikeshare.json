@@ -895,12 +895,6 @@
             "name": "Gould St / Yonge St (Ryerson University)"
         },
         {
-            "stnid": "7167",
-            "lat": "43.654444",
-            "lng": "-79.371111",
-            "name": "Queen St E / George St (Moss Park)"
-        },
-        {
             "stnid": "7168",
             "lat": "43.641646",
             "lng": "-79.375308",
@@ -1262,8 +1256,8 @@
         },
         {
             "stnid": "7241",
-            "lat": "43.666331",
-            "lng": "-79.380950",
+            "lat": "43.666874",
+            "lng": "-79.381155",
             "name": "519 Church St"
         },
         {
@@ -2129,12 +2123,6 @@
             "lat": "43.641785",
             "lng": "-79.413115",
             "name": "King St W / Crawford St"
-        },
-        {
-            "stnid": "7413",
-            "lat": "43.664780",
-            "lng": "-79.459910",
-            "name": "Dundas St W / Watkinson Ave"
         },
         {
             "stnid": "7414",
@@ -3923,6 +3911,12 @@
             "lat": "43.623130",
             "lng": "-79.491800",
             "name": "Grand Avenue Park"
+        },
+        {
+            "stnid": "7761",
+            "lat": "43.655972",
+            "lng": "-79.370638",
+            "name": "Moss Park"
         }
     ]
 }
