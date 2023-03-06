@@ -1,6 +1,12 @@
 {
     "stations": [
         {
+            "stnid": "1405",
+            "lat": "43.659491",
+            "lng": "-79.389300",
+            "name": "PBSC-K3Test"
+        },
+        {
             "stnid": "7000",
             "lat": "43.639832",
             "lng": "-79.395954",
@@ -310,7 +316,7 @@
             "stnid": "7057",
             "lat": "43.645857",
             "lng": "-79.385365",
-            "name": "Simcoe St / Wellington St South"
+            "name": "Simcoe St / Wellington St W South"
         },
         {
             "stnid": "7058",
@@ -490,13 +496,13 @@
             "stnid": "7091",
             "lat": "43.681114",
             "lng": "-79.337389",
-            "name": "Donlands Station"
+            "name": "Donlands Subway Station"
         },
         {
             "stnid": "7092",
             "lat": "43.680223",
             "lng": "-79.344062",
-            "name": "Pape Subway Green P"
+            "name": "Pape Subway Station (Green P)"
         },
         {
             "stnid": "7093",
@@ -508,7 +514,7 @@
             "stnid": "7094",
             "lat": "43.678483",
             "lng": "-79.351356",
-            "name": "Chester Station"
+            "name": "Chester Subway Station"
         },
         {
             "stnid": "7095",
@@ -724,7 +730,7 @@
             "stnid": "7133",
             "lat": "43.681944",
             "lng": "-79.390556",
-            "name": "Summerhill Station"
+            "name": "Summerhill Subway Station"
         },
         {
             "stnid": "7135",
@@ -916,7 +922,7 @@
             "stnid": "7171",
             "lat": "43.632245",
             "lng": "-79.410811",
-            "name": "Ontario Place Blvd / Lake Shore Blvd W (East)"
+            "name": "Ontario Place Blvd / Lake Shore Blvd W"
         },
         {
             "stnid": "7172",
@@ -1198,7 +1204,7 @@
             "stnid": "7231",
             "lat": "43.646677",
             "lng": "-79.442741",
-            "name": "Wright / Sorauren (Sorauren Park) - SMART"
+            "name": "Wright Ave / Sorauren Ave - SMART"
         },
         {
             "stnid": "7232",
@@ -1240,7 +1246,7 @@
             "stnid": "7238",
             "lat": "43.649172",
             "lng": "-79.444509",
-            "name": "Sorauren/Geoffrey (Sorauren Park) - SMART"
+            "name": "Sorauren Ave / Geoffrey St - SMART"
         },
         {
             "stnid": "7239",
@@ -1312,7 +1318,7 @@
             "stnid": "7250",
             "lat": "43.660296",
             "lng": "-79.397107",
-            "name": "St. George St / Russell St - SMART"
+            "name": "Ursula Franklin St / St. George St - SMART"
         },
         {
             "stnid": "7251",
@@ -1438,7 +1444,7 @@
             "stnid": "7273",
             "lat": "43.668153",
             "lng": "-79.388910",
-            "name": "Bay St / Charles St - SMART"
+            "name": "Bay St / Charles St W - SMART"
         },
         {
             "stnid": "7274",
@@ -1666,13 +1672,13 @@
             "stnid": "7323",
             "lat": "43.645209",
             "lng": "-79.396074",
-            "name": "457 King St. W. at Spadina"
+            "name": "457 King St W"
         },
         {
             "stnid": "7324",
             "lat": "43.645572",
             "lng": "-79.393990",
-            "name": "King St W / Charlotte St (West Side)"
+            "name": "King St W / Charlotte St"
         },
         {
             "stnid": "7326",
@@ -1684,7 +1690,7 @@
             "stnid": "7327",
             "lat": "43.674122",
             "lng": "-79.435221",
-            "name": "Davenport Rd / Oakwood Rd - SMART"
+            "name": "Davenport Rd / Dovercourt Rd - SMART"
         },
         {
             "stnid": "7328",
@@ -1708,7 +1714,7 @@
             "stnid": "7332",
             "lat": "43.671561",
             "lng": "-79.381170",
-            "name": "200 Bloor St. E."
+            "name": "200 Bloor St E"
         },
         {
             "stnid": "7333",
@@ -1720,7 +1726,7 @@
             "stnid": "7334",
             "lat": "43.646218",
             "lng": "-79.385505",
-            "name": "Simcoe St / Wellington St North"
+            "name": "Simcoe St / Wellington St W North"
         },
         {
             "stnid": "7335",
@@ -1852,7 +1858,7 @@
             "stnid": "7356",
             "lat": "43.651885",
             "lng": "-79.364900",
-            "name": "King St E / Ontario St."
+            "name": "King St E / Berkeley St"
         },
         {
             "stnid": "7357",
@@ -1876,7 +1882,7 @@
             "stnid": "7361",
             "lat": "43.681735",
             "lng": "-79.418473",
-            "name": "Hocken Ave./Vaughan Rd."
+            "name": "Hocken Ave / Vaughan Rd"
         },
         {
             "stnid": "7362",
@@ -1894,7 +1900,7 @@
             "stnid": "7364",
             "lat": "43.673831",
             "lng": "-79.281455",
-            "name": "Queen St E / Nursewood Rd (Neville Park Loop)"
+            "name": "Queen St E / Nursewood Rd"
         },
         {
             "stnid": "7365",
@@ -1918,7 +1924,7 @@
             "stnid": "7368",
             "lat": "43.649347",
             "lng": "-79.426680",
-            "name": "Lisgar St / Dundas St SMART"
+            "name": "Lisgar St / Dundas St W - SMART"
         },
         {
             "stnid": "7369",
@@ -2014,7 +2020,7 @@
             "stnid": "7386",
             "lat": "43.655227",
             "lng": "-79.392010",
-            "name": "D'Arcy St. /McCaul St. SMART"
+            "name": "D'Arcy St / McCaul St - SMART"
         },
         {
             "stnid": "7387",
@@ -2026,13 +2032,13 @@
             "stnid": "7388",
             "lat": "43.677200",
             "lng": "-79.358580",
-            "name": "Broadview Ave / Danforth Ave"
+            "name": "Broadview Subway Station"
         },
         {
             "stnid": "7389",
             "lat": "43.658938",
             "lng": "-79.383518",
-            "name": "College Park- Gerrard Entrance"
+            "name": "College Park - Gerrard Entrance"
         },
         {
             "stnid": "7391",
@@ -2056,7 +2062,7 @@
             "stnid": "7398",
             "lat": "43.641952",
             "lng": "-79.380723",
-            "name": "York St / Lakeshore St W - South"
+            "name": "York St / Lake Shore Blvd W"
         },
         {
             "stnid": "7399",
@@ -2248,13 +2254,13 @@
             "stnid": "7438",
             "lat": "43.653890",
             "lng": "-79.467500",
-            "name": "High Park Subway"
+            "name": "High Park Subway Station - Quebec Entrance"
         },
         {
             "stnid": "7440",
             "lat": "43.631210",
             "lng": "-79.414140",
-            "name": "Martin Goodman Trail / Ontario Dr"
+            "name": "Martin Goodman Trail / Remembrance Dr"
         },
         {
             "stnid": "7441",
@@ -2410,7 +2416,7 @@
             "stnid": "7468",
             "lat": "43.644200",
             "lng": "-79.387020",
-            "name": "Front St / Simcoe St"
+            "name": "Front St W / Simcoe St"
         },
         {
             "stnid": "7469",
@@ -2423,12 +2429,6 @@
             "lat": "43.618680",
             "lng": "-79.486740",
             "name": "Lake Shore Blvd W / Louisa St"
-        },
-        {
-            "stnid": "7472",
-            "lat": "43.656311",
-            "lng": "-79.379158",
-            "name": "Dundas St E / Victoria St"
         },
         {
             "stnid": "7473",
@@ -2500,7 +2500,7 @@
             "stnid": "7486",
             "lat": "43.684261",
             "lng": "-79.299332",
-            "name": "Gerrard St E / Ted Reeve Dr"
+            "name": "Gerrard St E / Main St"
         },
         {
             "stnid": "7487",
@@ -2519,12 +2519,6 @@
             "lat": "43.656638",
             "lng": "-79.358749",
             "name": "Sumach St  / Queen St E"
-        },
-        {
-            "stnid": "7491",
-            "lat": "43.654074",
-            "lng": "-79.398115",
-            "name": "D'Arcy St / Spadina Ave - SMART"
         },
         {
             "stnid": "7492",
@@ -2554,7 +2548,7 @@
             "stnid": "7497",
             "lat": "43.654004",
             "lng": "-79.444792",
-            "name": "128 Sterling Ave - SMART"
+            "name": "128 Sterling Rd - SMART"
         },
         {
             "stnid": "7501",
@@ -2642,8 +2636,8 @@
         },
         {
             "stnid": "7521",
-            "lat": "43.658653",
-            "lng": "-79.440502",
+            "lat": "43.659055",
+            "lng": "-79.440764",
             "name": "Emerson Ave / Bloor St W"
         },
         {
@@ -3058,7 +3052,7 @@
             "stnid": "7600",
             "lat": "43.660274",
             "lng": "-79.398049",
-            "name": "Russell St / Huron St - SMART"
+            "name": "Ursula Franklin St / Huron St - SMART"
         },
         {
             "stnid": "7601",
@@ -3268,13 +3262,13 @@
             "stnid": "7636",
             "lat": "43.647663",
             "lng": "-79.487583",
-            "name": "Bloor St W / Riverside Ave"
+            "name": "Bloor St W / Riverside Dr"
         },
         {
             "stnid": "7637",
             "lat": "43.616272",
             "lng": "-79.499036",
-            "name": "Judson St / Royal York"
+            "name": "Judson St / Royal York Rd"
         },
         {
             "stnid": "7639",
@@ -3292,7 +3286,7 @@
             "stnid": "7641",
             "lat": "43.664117",
             "lng": "-79.458852",
-            "name": "Annette St / Dundas W"
+            "name": "Annette St / Dundas St W"
         },
         {
             "stnid": "7642",
@@ -3340,7 +3334,7 @@
             "stnid": "7650",
             "lat": "43.686352",
             "lng": "-79.415894",
-            "name": "St Clair W Subway - Heath Entrance"
+            "name": "St Clair West Subway Station - Heath Entrance"
         },
         {
             "stnid": "7654",
@@ -3442,7 +3436,7 @@
             "stnid": "7675",
             "lat": "43.649570",
             "lng": "-79.432446",
-            "name": "1525 Dundas St"
+            "name": "1525 Dundas St W"
         },
         {
             "stnid": "7676",
@@ -3472,7 +3466,7 @@
             "stnid": "7680",
             "lat": "43.633464",
             "lng": "-79.414306",
-            "name": "Princes Gate / Nunavut Dr"
+            "name": "Princes' Blvd / Nunavut Rd"
         },
         {
             "stnid": "7681",
@@ -3514,7 +3508,7 @@
             "stnid": "7687",
             "lat": "43.660202",
             "lng": "-79.434273",
-            "name": "Bloor / Gladstone - SMART"
+            "name": "Bloor St W / Gladstone Ave - SMART"
         },
         {
             "stnid": "7688",
@@ -3548,8 +3542,8 @@
         },
         {
             "stnid": "7694",
-            "lat": "43.707212",
-            "lng": "-79.295287",
+            "lat": "43.706466",
+            "lng": "-79.295110",
             "name": "Victoria Park Ave / Dawes Rd"
         },
         {
@@ -3584,8 +3578,8 @@
         },
         {
             "stnid": "7701",
-            "lat": "43.646743",
-            "lng": "-79.446895",
+            "lat": "43.646314",
+            "lng": "-79.448794",
             "name": "Roncesvalles Ave / Fermanagh Ave"
         },
         {
@@ -3628,7 +3622,7 @@
             "stnid": "7708",
             "lat": "43.686868",
             "lng": "-79.311094",
-            "name": "101 Cedarvale"
+            "name": "101 Cedarvale Ave"
         },
         {
             "stnid": "7709",
@@ -3680,8 +3674,8 @@
         },
         {
             "stnid": "7718",
-            "lat": "43.646151",
-            "lng": "-79.399821",
+            "lat": "43.646552",
+            "lng": "-79.399586",
             "name": "St. Andrew's Playground Park"
         },
         {
@@ -3890,8 +3884,8 @@
         },
         {
             "stnid": "7757",
-            "lat": "43.642890",
-            "lng": "-79.394635",
+            "lat": "43.643025",
+            "lng": "-79.394301",
             "name": "The Well"
         },
         {
@@ -3917,6 +3911,12 @@
             "lat": "43.655972",
             "lng": "-79.370638",
             "name": "Moss Park"
+        },
+        {
+            "stnid": "7762",
+            "lat": "43.659153",
+            "lng": "-79.394795",
+            "name": "College St / Henry St "
         }
     ]
 }
