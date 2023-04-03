@@ -1,12 +1,6 @@
 {
     "stations": [
         {
-            "stnid": "1405",
-            "lat": "43.659491",
-            "lng": "-79.389300",
-            "name": "PBSC-K3Test"
-        },
-        {
             "stnid": "7000",
             "lat": "43.639832",
             "lng": "-79.395954",
@@ -1420,7 +1414,7 @@
             "stnid": "7269",
             "lat": "43.655431",
             "lng": "-79.380653",
-            "name": "Toronto Eaton Centre (Yonge St)"
+            "name": "Toronto Eaton Centre (Yonge St) - SMART"
         },
         {
             "stnid": "7270",
@@ -1844,8 +1838,8 @@
         },
         {
             "stnid": "7354",
-            "lat": "43.645836",
-            "lng": "-79.320889",
+            "lat": "43.652227",
+            "lng": "-79.322954",
             "name": "Tommy Thompson Park (Leslie Street Spit)"
         },
         {
@@ -1993,12 +1987,6 @@
             "name": "Yonge St / Orchard View Blvd"
         },
         {
-            "stnid": "7382",
-            "lat": "43.648130",
-            "lng": "-79.386320",
-            "name": "Simcoe St / Adelaide St W"
-        },
-        {
             "stnid": "7383",
             "lat": "43.642564",
             "lng": "-79.376200",
@@ -2045,12 +2033,6 @@
             "lat": "43.655766",
             "lng": "-79.380200",
             "name": "Yonge St / Dundas Sq"
-        },
-        {
-            "stnid": "7392",
-            "lat": "43.686829",
-            "lng": "-79.311073",
-            "name": "Woodbine Subway Green P SMART"
         },
         {
             "stnid": "7395",
@@ -2254,7 +2236,7 @@
             "stnid": "7438",
             "lat": "43.653890",
             "lng": "-79.467500",
-            "name": "High Park Subway Station - Quebec Entrance"
+            "name": "Gothic Ave / Quebec Ave"
         },
         {
             "stnid": "7440",
@@ -3175,12 +3157,6 @@
             "name": "Eglinton Ave E / Redpath Ave"
         },
         {
-            "stnid": "7621",
-            "lat": "43.591561",
-            "lng": "-79.545827",
-            "name": "Long Branch GO Station"
-        },
-        {
             "stnid": "7622",
             "lat": "43.588077",
             "lng": "-79.543207",
@@ -3496,7 +3472,7 @@
             "stnid": "7685",
             "lat": "43.645102",
             "lng": "-79.397450",
-            "name": "King / Brant"
+            "name": "King St W / Brant St"
         },
         {
             "stnid": "7686",
@@ -3520,7 +3496,7 @@
             "stnid": "7689",
             "lat": "43.680012",
             "lng": "-79.344033",
-            "name": "20 Eaton"
+            "name": "20 Eaton Ave"
         },
         {
             "stnid": "7691",
@@ -3724,7 +3700,7 @@
             "stnid": "7730",
             "lat": "43.636804",
             "lng": "-79.408832",
-            "name": "800 Fleet Street"
+            "name": "800 Fleet St"
         },
         {
             "stnid": "7731",
@@ -3880,7 +3856,7 @@
             "stnid": "7756",
             "lat": "43.761174",
             "lng": "-79.511445",
-            "name": "Tobemory Dr / Finch Hydro Recreational Trail"
+            "name": "Tobermory Dr / Finch Hydro Recreational Trail"
         },
         {
             "stnid": "7757",
@@ -3917,6 +3893,54 @@
             "lat": "43.659153",
             "lng": "-79.394795",
             "name": "College St / Henry St "
+        },
+        {
+            "stnid": "7765",
+            "lat": "43.665268",
+            "lng": "-79.475021",
+            "name": "St. John's Rd / Dundas St W"
+        },
+        {
+            "stnid": "7766",
+            "lat": "43.665541",
+            "lng": "-79.410103",
+            "name": "Albany Ave / Bloor St W"
+        },
+        {
+            "stnid": "7767",
+            "lat": "43.776490",
+            "lng": "-79.508536",
+            "name": "Pioneer Village Subway"
+        },
+        {
+            "stnid": "7768",
+            "lat": "43.653518",
+            "lng": "-79.385911",
+            "name": "Armoury St / Chestnut St"
+        },
+        {
+            "stnid": "7769",
+            "lat": "43.591200",
+            "lng": "-79.544491",
+            "name": "Lake Shore Blvd W / Brow Dr"
+        },
+        {
+            "stnid": "7770",
+            "lat": "43.650828",
+            "lng": "-79.396981",
+            "name": "Spadina Ave / Sullivan St"
+        },
+        {
+            "stnid": "7771",
+            "lat": "43.673844",
+            "lng": "-79.460926",
+            "name": "St. Clair Ave W / Osler St"
+        },
+        {
+            "stnid": "7772",
+            "lat": "43.647508",
+            "lng": "-79.386044",
+            "name": "Simcoe St / King St W"
         }
     ]
 }
