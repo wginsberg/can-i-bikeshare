@@ -292,7 +292,7 @@
             "stnid": "7054",
             "lat": "43.640722",
             "lng": "-79.391051",
-            "name": "Navy Wharf Ct. / Bremner Blvd."
+            "name": "Navy Wharf Ct / Bremner Blvd"
         },
         {
             "stnid": "7055",
@@ -766,13 +766,13 @@
             "stnid": "7141",
             "lat": "43.675556",
             "lng": "-79.410278",
-            "name": "Bridgeman Ave / Kendal Ave"
+            "name": "Bridgman Ave / Kendal Ave"
         },
         {
             "stnid": "7142",
             "lat": "43.674444",
             "lng": "-79.414722",
-            "name": "Bridgeman Ave / Bathurst St"
+            "name": "Bridgman Ave / Bathurst St"
         },
         {
             "stnid": "7143",
@@ -1096,7 +1096,7 @@
             "stnid": "7208",
             "lat": "43.656296",
             "lng": "-79.414663",
-            "name": "80 Clinton St (North of College)"
+            "name": "80 Clinton St"
         },
         {
             "stnid": "7209",
@@ -1232,9 +1232,9 @@
         },
         {
             "stnid": "7237",
-            "lat": "43.663337",
-            "lng": "-79.446444",
-            "name": "Ward Ave / Wallace Ave"
+            "lat": "43.662232",
+            "lng": "-79.445994",
+            "name": "Ward St / Wallace Ave"
         },
         {
             "stnid": "7238",
@@ -1445,12 +1445,6 @@
             "lat": "43.661803",
             "lng": "-79.389682",
             "name": "Queen's Park Cres E / Grosvenor St - SMART"
-        },
-        {
-            "stnid": "7275",
-            "lat": "43.652276",
-            "lng": "-79.380701",
-            "name": "Queen St W / James St"
         },
         {
             "stnid": "7276",
@@ -1864,7 +1858,7 @@
             "stnid": "7359",
             "lat": "43.682645",
             "lng": "-79.377557",
-            "name": "Rosedale Park (20 Schofield Ave)"
+            "name": "Rosedale Park (20 Scholfield Ave)"
         },
         {
             "stnid": "7360",
@@ -2077,12 +2071,6 @@
             "name": "Victoria St / Queen St E"
         },
         {
-            "stnid": "7407",
-            "lat": "43.651580",
-            "lng": "-79.386550",
-            "name": "University Ave / Queen St W"
-        },
-        {
             "stnid": "7408",
             "lat": "43.652630",
             "lng": "-79.387660",
@@ -2152,7 +2140,7 @@
             "stnid": "7420",
             "lat": "43.668420",
             "lng": "-79.410585",
-            "name": "Barton St / Howland St - SMART"
+            "name": "Barton Ave / Howland Ave - SMART"
         },
         {
             "stnid": "7422",
@@ -3382,7 +3370,7 @@
             "stnid": "7666",
             "lat": "43.650422",
             "lng": "-79.440765",
-            "name": "Dundas St W / St Helen Ave - SMART"
+            "name": "Dundas St W / St Helen's Ave - SMART"
         },
         {
             "stnid": "7667",
@@ -3859,12 +3847,6 @@
             "name": "Tobermory Dr / Finch Hydro Recreational Trail"
         },
         {
-            "stnid": "7757",
-            "lat": "43.643025",
-            "lng": "-79.394301",
-            "name": "The Well"
-        },
-        {
             "stnid": "7758",
             "lat": "43.760362",
             "lng": "-79.516278",
@@ -3910,7 +3892,7 @@
             "stnid": "7767",
             "lat": "43.776490",
             "lng": "-79.508536",
-            "name": "Pioneer Village Subway"
+            "name": "Pioneer Village Subway Station"
         },
         {
             "stnid": "7768",
@@ -3941,6 +3923,48 @@
             "lat": "43.647508",
             "lng": "-79.386044",
             "name": "Simcoe St / King St W"
+        },
+        {
+            "stnid": "7773",
+            "lat": "43.715132",
+            "lng": "-79.334136",
+            "name": "Grenoble Dr / Gateway Blvd"
+        },
+        {
+            "stnid": "7774",
+            "lat": "43.716497",
+            "lng": "-79.330894",
+            "name": "Grenoble Dr / Deauville Ln"
+        },
+        {
+            "stnid": "7775",
+            "lat": "43.715538",
+            "lng": "-79.328114",
+            "name": "Grenoble Dr / Vendome Pl"
+        },
+        {
+            "stnid": "7776",
+            "lat": "43.719633",
+            "lng": "-79.332000",
+            "name": "Ferrand Dr / Rochefort Dr"
+        },
+        {
+            "stnid": "7777",
+            "lat": "43.704004",
+            "lng": "-79.348070",
+            "name": "Thorncliffe Park Dr / Leaside Park Trail"
+        },
+        {
+            "stnid": "7778",
+            "lat": "43.705183",
+            "lng": "-79.342247",
+            "name": "75 Thorncliffe Park Dr"
+        },
+        {
+            "stnid": "7779",
+            "lat": "43.706562",
+            "lng": "-79.367820",
+            "name": "165 McRae Dr"
         }
     ]
 }
