@@ -7,12 +7,6 @@
             "name": "Fort York  Blvd / Capreol Ct"
         },
         {
-            "stnid": "7001",
-            "lat": "43.664964",
-            "lng": "-79.383550",
-            "name": "Wellesley Station Green P"
-        },
-        {
             "stnid": "7002",
             "lat": "43.667333",
             "lng": "-79.399429",
@@ -52,7 +46,7 @@
             "stnid": "7008",
             "lat": "43.663376",
             "lng": "-79.392125",
-            "name": "Wellesley St / Queen's Park Cres"
+            "name": "Wellesley St W / Queen's Park Cres"
         },
         {
             "stnid": "7009",
@@ -292,7 +286,7 @@
             "stnid": "7054",
             "lat": "43.640722",
             "lng": "-79.391051",
-            "name": "Navy Wharf Ct / Bremner Blvd"
+            "name": "Navy Wharf Crt / Bremner Blvd"
         },
         {
             "stnid": "7055",
@@ -527,12 +521,6 @@
             "lat": "43.671172",
             "lng": "-79.354704",
             "name": "Riverdale Park North (Broadview Ave)"
-        },
-        {
-            "stnid": "7098",
-            "lat": "43.667819",
-            "lng": "-79.353470",
-            "name": "Riverdale Park South (Broadview Ave)"
         },
         {
             "stnid": "7099",
@@ -856,7 +844,7 @@
             "stnid": "7157",
             "lat": "43.660833",
             "lng": "-79.435833",
-            "name": "Dufferin St / Bloor St"
+            "name": "Dufferin St / Bloor St W"
         },
         {
             "stnid": "7158",
@@ -986,8 +974,8 @@
         },
         {
             "stnid": "7188",
-            "lat": "43.636667",
-            "lng": "-79.419722",
+            "lat": "43.637695",
+            "lng": "-79.420232",
             "name": "Exhibition GO (Atlantic Ave)"
         },
         {
@@ -1141,22 +1129,10 @@
             "name": "High Park Subway Station"
         },
         {
-            "stnid": "7222",
-            "lat": "43.637894",
-            "lng": "-79.454823",
-            "name": "Sunnyside - Gus Ryder Pool"
-        },
-        {
             "stnid": "7223",
             "lat": "43.654501",
             "lng": "-79.460053",
             "name": "Parkside Dr / Bloor St W - SMART"
-        },
-        {
-            "stnid": "7224",
-            "lat": "43.653527",
-            "lng": "-79.465057",
-            "name": "Bloor St W / High Park Ave (High Park)"
         },
         {
             "stnid": "7225",
@@ -1232,8 +1208,8 @@
         },
         {
             "stnid": "7237",
-            "lat": "43.662232",
-            "lng": "-79.445994",
+            "lat": "43.662857",
+            "lng": "-79.446180",
             "name": "Ward St / Wallace Ave"
         },
         {
@@ -1300,7 +1276,7 @@
             "stnid": "7248",
             "lat": "43.654905",
             "lng": "-79.398448",
-            "name": "Baldwin Ave / Spadina Ave - SMART"
+            "name": "Baldwin St / Spadina Ave - SMART"
         },
         {
             "stnid": "7249",
@@ -1816,7 +1792,7 @@
             "stnid": "7351",
             "lat": "43.678321",
             "lng": "-79.358220",
-            "name": "Pretoria Av / Broadview Av"
+            "name": "Pretoria Ave / Broadview Ave"
         },
         {
             "stnid": "7352",
@@ -1913,12 +1889,6 @@
             "lat": "43.649347",
             "lng": "-79.426680",
             "name": "Lisgar St / Dundas St W - SMART"
-        },
-        {
-            "stnid": "7369",
-            "lat": "43.667266",
-            "lng": "-79.443946",
-            "name": "Dupont St / Emerson Ave SMART"
         },
         {
             "stnid": "7371",
@@ -2161,12 +2131,6 @@
             "name": "The Queensway at South Kingsway"
         },
         {
-            "stnid": "7427",
-            "lat": "43.663162",
-            "lng": "-79.309765",
-            "name": "Northern Dancer Blvd / Lake Shore Blvd E"
-        },
-        {
             "stnid": "7428",
             "lat": "43.665645",
             "lng": "-79.304711",
@@ -2357,12 +2321,6 @@
             "lat": "43.651838",
             "lng": "-79.378743",
             "name": "Richmond St E / Yonge St"
-        },
-        {
-            "stnid": "7463",
-            "lat": "43.646257",
-            "lng": "-79.397338",
-            "name": "Adelaide St W / Brant St"
         },
         {
             "stnid": "7465",
@@ -2602,7 +2560,7 @@
             "stnid": "7520",
             "lat": "43.648660",
             "lng": "-79.437641",
-            "name": "St Clarens Ave / Shirley Ave"
+            "name": "St Clarens Ave / Shirley St"
         },
         {
             "stnid": "7521",
@@ -2720,9 +2678,9 @@
         },
         {
             "stnid": "7543",
-            "lat": "43.653751",
-            "lng": "-79.402825",
-            "name": "Bellevue Square Park"
+            "lat": "43.654842",
+            "lng": "-79.403512",
+            "name": "Nassau St / Bellevue Ave"
         },
         {
             "stnid": "7545",
@@ -3040,7 +2998,7 @@
             "stnid": "7603",
             "lat": "43.707582",
             "lng": "-79.311439",
-            "name": "O'Connor Dr / Curity Ave - SMART"
+            "name": "O'Connor Dr / Curity Ave - Smart"
         },
         {
             "stnid": "7604",
@@ -3238,7 +3196,7 @@
             "stnid": "7639",
             "lat": "43.639971",
             "lng": "-79.399404",
-            "name": "135 Queens Wharf  - SMART"
+            "name": "135 Queens Wharf Rd - SMART"
         },
         {
             "stnid": "7640",
@@ -3847,6 +3805,12 @@
             "name": "Tobermory Dr / Finch Hydro Recreational Trail"
         },
         {
+            "stnid": "7757",
+            "lat": "43.643025",
+            "lng": "-79.394301",
+            "name": "The Well"
+        },
+        {
             "stnid": "7758",
             "lat": "43.760362",
             "lng": "-79.516278",
@@ -3965,6 +3929,60 @@
             "lat": "43.706562",
             "lng": "-79.367820",
             "name": "165 McRae Dr"
+        },
+        {
+            "stnid": "7780",
+            "lat": "43.700882",
+            "lng": "-79.387360",
+            "name": "Mt Pleasant Rd / Davisville Ave - SMART"
+        },
+        {
+            "stnid": "7781",
+            "lat": "43.686889",
+            "lng": "-79.400995",
+            "name": "St Clair Ave W / Avenue Rd "
+        },
+        {
+            "stnid": "7782",
+            "lat": "43.753107",
+            "lng": "-79.479626",
+            "name": "Downsview Park Subway Station - SMART"
+        },
+        {
+            "stnid": "7783",
+            "lat": "43.748297",
+            "lng": "-79.475706",
+            "name": "60 Carl Hall Rd - SMART"
+        },
+        {
+            "stnid": "7784",
+            "lat": "43.736738",
+            "lng": "-79.482272",
+            "name": "Downsview Park Blvd / Keele St  - SMART"
+        },
+        {
+            "stnid": "7785",
+            "lat": "43.749450",
+            "lng": "-79.486966",
+            "name": "Keele St / Dovehouse Ave - SMART"
+        },
+        {
+            "stnid": "7787",
+            "lat": "43.637371",
+            "lng": "-79.389770",
+            "name": "HTO Park West"
+        },
+        {
+            "stnid": "7788",
+            "lat": "43.643928",
+            "lng": "-79.368730",
+            "name": "Queens Quay E / Lower Jarvis St "
+        },
+        {
+            "stnid": "7790",
+            "lat": "43.639125",
+            "lng": "-79.414232",
+            "name": "Lynn William St / Pirandello St "
         }
     ]
 }
