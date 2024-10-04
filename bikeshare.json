@@ -7,22 +7,22 @@
             "name": "Fort York  Blvd / Capreol Ct"
         },
         {
+            "stnid": "7001",
+            "lat": "43.664964",
+            "lng": "-79.383550",
+            "name": "Wellesley Station Green P"
+        },
+        {
             "stnid": "7002",
-            "lat": "43.667333",
-            "lng": "-79.399429",
+            "lat": "43.667131",
+            "lng": "-79.399555",
             "name": "St. George St / Bloor St W"
         },
         {
             "stnid": "7003",
-            "lat": "43.667158",
-            "lng": "-79.402761",
+            "lat": "43.667018",
+            "lng": "-79.402796",
             "name": "Madison Ave / Bloor St W"
-        },
-        {
-            "stnid": "7004",
-            "lat": "43.656518",
-            "lng": "-79.389099",
-            "name": "University Ave / Elm St"
         },
         {
             "stnid": "7005",
@@ -67,6 +67,12 @@
             "name": "Elizabeth St / Edward St (Bus Terminal)"
         },
         {
+            "stnid": "7013",
+            "lat": "43.646597",
+            "lng": "-79.375309",
+            "name": "Scott St / The Esplanade"
+        },
+        {
             "stnid": "7014",
             "lat": "43.663102",
             "lng": "-79.373181",
@@ -85,10 +91,22 @@
             "name": "Bay St / Queens Quay W (Ferry Terminal)"
         },
         {
+            "stnid": "7017",
+            "lat": "43.647548",
+            "lng": "-79.391552",
+            "name": "Widmer St / Adelaide St W - SMART"
+        },
+        {
             "stnid": "7018",
             "lat": "43.641529",
             "lng": "-79.386741",
             "name": "Bremner Blvd / Rees St"
+        },
+        {
+            "stnid": "7019",
+            "lat": "43.650945",
+            "lng": "-79.379498",
+            "name": "Temperance St Station"
         },
         {
             "stnid": "7020",
@@ -136,7 +154,7 @@
             "stnid": "7027",
             "lat": "43.652823",
             "lng": "-79.393388",
-            "name": "Beverley  St / Dundas St W"
+            "name": "Beverley St / Dundas St W"
         },
         {
             "stnid": "7028",
@@ -194,8 +212,8 @@
         },
         {
             "stnid": "7037",
-            "lat": "43.651950",
-            "lng": "-79.406098",
+            "lat": "43.651892",
+            "lng": "-79.405779",
             "name": "Bathurst St / Dundas St W"
         },
         {
@@ -265,6 +283,12 @@
             "name": "Front St W / Yonge St (Hockey Hall of Fame)"
         },
         {
+            "stnid": "7049",
+            "lat": "43.647600",
+            "lng": "-79.401500",
+            "name": "Portland St / Queen St W"
+        },
+        {
             "stnid": "7050",
             "lat": "43.652634",
             "lng": "-79.374222",
@@ -295,22 +319,10 @@
             "name": "Jarvis St / Carlton St"
         },
         {
-            "stnid": "7056",
-            "lat": "43.662132",
-            "lng": "-79.365680",
-            "name": "Parliament St / Gerrard St"
-        },
-        {
             "stnid": "7057",
             "lat": "43.645857",
             "lng": "-79.385365",
             "name": "Simcoe St / Wellington St W South"
-        },
-        {
-            "stnid": "7058",
-            "lat": "43.663700",
-            "lng": "-79.400053",
-            "name": "Huron St / Harbord St"
         },
         {
             "stnid": "7059",
@@ -325,12 +337,6 @@
             "name": "Dalton Rd / Bloor St W"
         },
         {
-            "stnid": "7062",
-            "lat": "43.659226",
-            "lng": "-79.390213",
-            "name": "University Ave / College St (West)"
-        },
-        {
             "stnid": "7063",
             "lat": "43.668456",
             "lng": "-79.393899",
@@ -338,8 +344,8 @@
         },
         {
             "stnid": "7064",
-            "lat": "43.652050",
-            "lng": "-79.362198",
+            "lat": "43.652169",
+            "lng": "-79.362841",
             "name": "51 Parliament St"
         },
         {
@@ -353,12 +359,6 @@
             "lat": "43.662085",
             "lng": "-79.397735",
             "name": "Willcocks St / St. George St"
-        },
-        {
-            "stnid": "7067",
-            "lat": "43.643795",
-            "lng": "-79.375413",
-            "name": "Yonge St / Harbour St"
         },
         {
             "stnid": "7068",
@@ -383,12 +383,6 @@
             "lat": "43.666233",
             "lng": "-79.373327",
             "name": "161 Bleecker St (South of Wellesley)"
-        },
-        {
-            "stnid": "7072",
-            "lat": "43.636611",
-            "lng": "-79.400042",
-            "name": "Fleet St / Bathurst St"
         },
         {
             "stnid": "7073",
@@ -416,8 +410,8 @@
         },
         {
             "stnid": "7077",
-            "lat": "43.659777",
-            "lng": "-79.382767",
+            "lat": "43.659457",
+            "lng": "-79.382365",
             "name": "College Park South"
         },
         {
@@ -452,8 +446,8 @@
         },
         {
             "stnid": "7086",
-            "lat": "43.652508",
-            "lng": "-79.465423",
+            "lat": "43.651922",
+            "lng": "-79.465693",
             "name": "High Park - West Rd"
         },
         {
@@ -487,12 +481,6 @@
             "name": "Donlands Subway Station"
         },
         {
-            "stnid": "7092",
-            "lat": "43.680223",
-            "lng": "-79.344062",
-            "name": "Pape Subway Station (Green P)"
-        },
-        {
             "stnid": "7093",
             "lat": "43.678401",
             "lng": "-79.346289",
@@ -502,7 +490,7 @@
             "stnid": "7094",
             "lat": "43.678483",
             "lng": "-79.351356",
-            "name": "Chester Subway Station"
+            "name": "14 Arundel Ave"
         },
         {
             "stnid": "7095",
@@ -523,10 +511,10 @@
             "name": "Riverdale Park North (Broadview Ave)"
         },
         {
-            "stnid": "7099",
-            "lat": "43.651393",
-            "lng": "-79.357947",
-            "name": "Cherry St / Mill St"
+            "stnid": "7098",
+            "lat": "43.667819",
+            "lng": "-79.353470",
+            "name": "Riverdale Park South (Broadview Ave)"
         },
         {
             "stnid": "7100",
@@ -607,6 +595,12 @@
             "name": "Liberty St / Fraser Ave Green P"
         },
         {
+            "stnid": "7113",
+            "lat": "43.665278",
+            "lng": "-79.368333",
+            "name": "Parliament St / Aberdeen Ave"
+        },
+        {
             "stnid": "7114",
             "lat": "43.664524",
             "lng": "-79.367930",
@@ -617,6 +611,12 @@
             "lat": "43.671258",
             "lng": "-79.376367",
             "name": "Howard St / Sherbourne St"
+        },
+        {
+            "stnid": "7116",
+            "lat": "43.671946",
+            "lng": "-79.372451",
+            "name": "Bloor St E / Parliament St"
         },
         {
             "stnid": "7117",
@@ -658,7 +658,7 @@
             "stnid": "7123",
             "lat": "43.643834",
             "lng": "-79.396649",
-            "name": "424 Wellington St W"
+            "name": "420 Wellington St W"
         },
         {
             "stnid": "7124",
@@ -716,15 +716,9 @@
         },
         {
             "stnid": "7135",
-            "lat": "43.638401",
-            "lng": "-79.419711",
+            "lat": "43.638609",
+            "lng": "-79.419654",
             "name": "Hanna Ave / Liberty St"
-        },
-        {
-            "stnid": "7136",
-            "lat": "43.640634",
-            "lng": "-79.435841",
-            "name": "Queen St W / Close Ave"
         },
         {
             "stnid": "7137",
@@ -868,7 +862,7 @@
             "stnid": "7162",
             "lat": "43.659167",
             "lng": "-79.385556",
-            "name": "Hayter St / Laplante Ave"
+            "name": "Hayter St / La Plante Ave"
         },
         {
             "stnid": "7163",
@@ -916,7 +910,7 @@
             "stnid": "7173",
             "lat": "43.666667",
             "lng": "-79.458333",
-            "name": "Cariboo St / Rail Path"
+            "name": "Cariboo Ave / Railpath Trail"
         },
         {
             "stnid": "7174",
@@ -944,8 +938,8 @@
         },
         {
             "stnid": "7180",
-            "lat": "43.658773",
-            "lng": "-79.443054",
+            "lat": "43.659229",
+            "lng": "-79.443209",
             "name": "Lansdowne Subway Station"
         },
         {
@@ -1004,9 +998,9 @@
         },
         {
             "stnid": "7193",
-            "lat": "43.643056",
-            "lng": "-79.427500",
-            "name": "Queen St W / Gladstone Ave"
+            "lat": "43.643097",
+            "lng": "-79.428756",
+            "name": "Dufferin St / Queen St W"
         },
         {
             "stnid": "7194",
@@ -1034,8 +1028,8 @@
         },
         {
             "stnid": "7198",
-            "lat": "43.640900",
-            "lng": "-79.432837",
+            "lat": "43.640897",
+            "lng": "-79.432836",
             "name": "Queen St W / Cowan Ave"
         },
         {
@@ -1112,8 +1106,8 @@
         },
         {
             "stnid": "7217",
-            "lat": "43.649490",
-            "lng": "-79.393535",
+            "lat": "43.649650",
+            "lng": "-79.393721",
             "name": "Soho St / Queen St W"
         },
         {
@@ -1168,13 +1162,13 @@
             "stnid": "7228",
             "lat": "43.637296",
             "lng": "-79.442324",
-            "name": "Queen St W / Roncesvalles Ave"
+            "name": "King St W / Wilson Park Blvd"
         },
         {
             "stnid": "7229",
             "lat": "43.653427",
             "lng": "-79.451279",
-            "name": "Dundas St W / Roncesvalles Green P - SMART"
+            "name": "Dundas St W / Roncesvalles Ave Green P -SMART"
         },
         {
             "stnid": "7230",
@@ -1240,7 +1234,13 @@
             "stnid": "7240",
             "lat": "43.662403",
             "lng": "-79.423098",
-            "name": "Bloor St W / Shaw Ave - SMART"
+            "name": "Bloor St W / Shaw St - SMART"
+        },
+        {
+            "stnid": "7241",
+            "lat": "43.666833",
+            "lng": "-79.381204",
+            "name": "519 Church St"
         },
         {
             "stnid": "7242",
@@ -1285,22 +1285,10 @@
             "name": "Baldwin St / Spadina Ave - SMART"
         },
         {
-            "stnid": "7249",
-            "lat": "43.651145",
-            "lng": "-79.423742",
-            "name": "Dovercourt Rd / Harrison St (Green P) - SMART"
-        },
-        {
             "stnid": "7250",
             "lat": "43.660296",
             "lng": "-79.397107",
             "name": "Ursula Franklin St / St. George St - SMART"
-        },
-        {
-            "stnid": "7251",
-            "lat": "43.668500",
-            "lng": "-79.394624",
-            "name": "The Royal Ontario Museum (Bloor St Entrance)"
         },
         {
             "stnid": "7252",
@@ -1357,12 +1345,6 @@
             "name": "Wychwood Ave / Benson Ave - SMART"
         },
         {
-            "stnid": "7263",
-            "lat": "43.657838",
-            "lng": "-79.386310",
-            "name": "Walton St / Elizabeth St - SMART"
-        },
-        {
             "stnid": "7264",
             "lat": "43.671535",
             "lng": "-79.379173",
@@ -1384,7 +1366,7 @@
             "stnid": "7267",
             "lat": "43.658295",
             "lng": "-79.372346",
-            "name": "Dundas St E / Pembroke St - SMART"
+            "name": "Dundas St E / Pembroke St "
         },
         {
             "stnid": "7268",
@@ -1430,8 +1412,8 @@
         },
         {
             "stnid": "7276",
-            "lat": "43.669903",
-            "lng": "-79.387802",
+            "lat": "43.669811",
+            "lng": "-79.388011",
             "name": "Bloor St W / Balmuto St"
         },
         {
@@ -1465,6 +1447,12 @@
             "name": "Charles St W / Balmuto St - SMART"
         },
         {
+            "stnid": "7282",
+            "lat": "43.650152",
+            "lng": "-79.379856",
+            "name": "Adelaide St W / Bay St"
+        },
+        {
             "stnid": "7283",
             "lat": "43.645950",
             "lng": "-79.378761",
@@ -1486,7 +1474,7 @@
             "stnid": "7286",
             "lat": "43.665656",
             "lng": "-79.352055",
-            "name": "Gerrard St E / Broadview - SMART"
+            "name": "Gerrard St E / Broadview Ave  - SMART"
         },
         {
             "stnid": "7287",
@@ -1564,7 +1552,7 @@
             "stnid": "7309",
             "lat": "43.666224",
             "lng": "-79.317693",
-            "name": "Queen St. E / Rhodes Ave."
+            "name": "Queen St E / Rhodes Ave"
         },
         {
             "stnid": "7311",
@@ -1576,13 +1564,13 @@
             "stnid": "7312",
             "lat": "43.668520",
             "lng": "-79.363525",
-            "name": "Amelia St. / Sumach St."
+            "name": "Amelia St / Sumach St"
         },
         {
             "stnid": "7313",
             "lat": "43.662771",
             "lng": "-79.315223",
-            "name": "Lower Coxwell Ave /  Lake Shore Blvd E"
+            "name": "Emdaabiimok Ave / Lake Shore Blvd E"
         },
         {
             "stnid": "7314",
@@ -1612,7 +1600,7 @@
             "stnid": "7318",
             "lat": "43.668633",
             "lng": "-79.291162",
-            "name": "Hubbard Blvd. / Glen Manor Dr."
+            "name": "Hubbard Blvd / Glen Manor Dr"
         },
         {
             "stnid": "7319",
@@ -1661,12 +1649,6 @@
             "lat": "43.674122",
             "lng": "-79.435221",
             "name": "Davenport Rd / Dovercourt Rd - SMART"
-        },
-        {
-            "stnid": "7328",
-            "lat": "43.678077",
-            "lng": "-79.390328",
-            "name": "Roxborough St W / Yonge St"
         },
         {
             "stnid": "7329",
@@ -1762,13 +1744,13 @@
             "stnid": "7345",
             "lat": "43.640835",
             "lng": "-79.342907",
-            "name": "Cherry Beach Sports Field (55 Unwin Ave)"
+            "name": "Cherry Beach Sports Fields (55 Unwin Ave)"
         },
         {
             "stnid": "7346",
             "lat": "43.667214",
             "lng": "-79.345270",
-            "name": "Logan Av / Gerrard St E"
+            "name": "Logan Ave / Gerrard St E"
         },
         {
             "stnid": "7347",
@@ -1822,7 +1804,7 @@
             "stnid": "7355",
             "lat": "43.704461",
             "lng": "-79.423122",
-            "name": "Beltline Trail / Chaplin Cres."
+            "name": "Beltline Trail / Chaplin Cres"
         },
         {
             "stnid": "7356",
@@ -1835,6 +1817,12 @@
             "lat": "43.659195",
             "lng": "-79.329196",
             "name": "Lake Shore Blvd E / Leslie St"
+        },
+        {
+            "stnid": "7358",
+            "lat": "43.660387",
+            "lng": "-79.395378",
+            "name": "Galbraith Rd / King's College Rd"
         },
         {
             "stnid": "7359",
@@ -1882,7 +1870,7 @@
             "stnid": "7366",
             "lat": "43.639052",
             "lng": "-79.399792",
-            "name": "Fort York Blvd / Bathurst St SMART"
+            "name": "Fort York Blvd / Bathurst St - SMART"
         },
         {
             "stnid": "7367",
@@ -1966,7 +1954,7 @@
             "stnid": "7384",
             "lat": "43.670454",
             "lng": "-79.390140",
-            "name": "Cumberland Ave / Bay St SMART"
+            "name": "Cumberland St / Bay St SMART"
         },
         {
             "stnid": "7385",
@@ -2020,7 +2008,7 @@
             "stnid": "7399",
             "lat": "43.644220",
             "lng": "-79.369270",
-            "name": "Lower Jarvis / Queens Quay E"
+            "name": "Lower Jarvis St / Queens Quay E"
         },
         {
             "stnid": "7400",
@@ -2041,16 +2029,10 @@
             "name": "Roehampton Ave / Mount Pleasant Rd"
         },
         {
-            "stnid": "7406",
-            "lat": "43.652822",
-            "lng": "-79.378208",
-            "name": "Victoria St / Queen St E"
-        },
-        {
-            "stnid": "7408",
-            "lat": "43.652630",
-            "lng": "-79.387660",
-            "name": "University Ave / Armoury St"
+            "stnid": "7407",
+            "lat": "43.650524",
+            "lng": "-79.386727",
+            "name": "University Ave / Queen St W"
         },
         {
             "stnid": "7409",
@@ -2105,12 +2087,6 @@
             "lat": "43.659880",
             "lng": "-79.382790",
             "name": "College Park - Yonge St Entrance"
-        },
-        {
-            "stnid": "7419",
-            "lat": "43.667023",
-            "lng": "-79.401805",
-            "name": "Bloor St W / Huron St"
         },
         {
             "stnid": "7420",
@@ -2180,9 +2156,9 @@
         },
         {
             "stnid": "7434",
-            "lat": "43.676697",
-            "lng": "-79.445029",
-            "name": "Via Italia / Mackay Ave"
+            "lat": "43.676650",
+            "lng": "-79.445030",
+            "name": "91 Via Italia"
         },
         {
             "stnid": "7435",
@@ -2201,12 +2177,6 @@
             "lat": "43.653890",
             "lng": "-79.467500",
             "name": "Gothic Ave / Quebec Ave"
-        },
-        {
-            "stnid": "7440",
-            "lat": "43.631210",
-            "lng": "-79.414140",
-            "name": "Martin Goodman Trail / Remembrance Dr"
         },
         {
             "stnid": "7441",
@@ -2254,7 +2224,7 @@
             "stnid": "7448",
             "lat": "43.694826",
             "lng": "-79.295208",
-            "name": "Goodwood Park Ct / Dentonia Park"
+            "name": "Goodwood Park Crt / Dentonia Park"
         },
         {
             "stnid": "7449",
@@ -2318,14 +2288,14 @@
         },
         {
             "stnid": "7460",
-            "lat": "43.649217",
-            "lng": "-79.465319",
+            "lat": "43.650154",
+            "lng": "-79.464934",
             "name": "High Park Outdoor Pool"
         },
         {
             "stnid": "7461",
-            "lat": "43.645653",
-            "lng": "-79.464366",
+            "lat": "43.646251",
+            "lng": "-79.464720",
             "name": "High Park Amphitheatre"
         },
         {
@@ -2344,7 +2314,7 @@
             "stnid": "7466",
             "lat": "43.651820",
             "lng": "-79.474210",
-            "name": "Glendonwynne Ave / Bloor St W"
+            "name": "Glendonwynne Rd / Bloor St W"
         },
         {
             "stnid": "7467",
@@ -2362,13 +2332,13 @@
             "stnid": "7469",
             "lat": "43.646734",
             "lng": "-79.383010",
-            "name": "Wellington St W / York St"
+            "name": "York St / Wellington St W (1) "
         },
         {
             "stnid": "7471",
             "lat": "43.618680",
             "lng": "-79.486740",
-            "name": "Lake Shore Blvd W / Louisa St"
+            "name": "2300 Lakeshore Blvd W"
         },
         {
             "stnid": "7473",
@@ -2462,9 +2432,9 @@
         },
         {
             "stnid": "7492",
-            "lat": "43.648300",
-            "lng": "-79.355253",
-            "name": "324 Cherry St"
+            "lat": "43.648270",
+            "lng": "-79.356517",
+            "name": "Cherry St / Lake Shore Blvd E"
         },
         {
             "stnid": "7493",
@@ -2576,8 +2546,8 @@
         },
         {
             "stnid": "7521",
-            "lat": "43.659055",
-            "lng": "-79.440764",
+            "lat": "43.658739",
+            "lng": "-79.440691",
             "name": "Emerson Ave / Bloor St W"
         },
         {
@@ -2725,12 +2695,6 @@
             "name": "439 Sherbourne St"
         },
         {
-            "stnid": "7551",
-            "lat": "43.649709",
-            "lng": "-79.364184",
-            "name": "The Esplanade / Hahn Pl"
-        },
-        {
             "stnid": "7552",
             "lat": "43.592742",
             "lng": "-79.540330",
@@ -2746,7 +2710,7 @@
             "stnid": "7554",
             "lat": "43.596169",
             "lng": "-79.516058",
-            "name": "Humber College"
+            "name": "Humber College (Lakeshore Campus)"
         },
         {
             "stnid": "7555",
@@ -2788,7 +2752,7 @@
             "stnid": "7562",
             "lat": "43.664665",
             "lng": "-79.489385",
-            "name": "Priscilla  Ave / Dundas St W"
+            "name": "Priscilla Ave / Dundas St W"
         },
         {
             "stnid": "7563",
@@ -2908,7 +2872,7 @@
             "stnid": "7585",
             "lat": "43.764149",
             "lng": "-79.501281",
-            "name": "Sentinel Rd / Finch Hydro Corridor"
+            "name": "Sentinel Rd / Finch Corridor Trail"
         },
         {
             "stnid": "7586",
@@ -2920,7 +2884,7 @@
             "stnid": "7587",
             "lat": "43.772402",
             "lng": "-79.467540",
-            "name": "Dufferin St / Finch Hydro Recreational Trail"
+            "name": "Dufferin St / Finch Corridor Trail"
         },
         {
             "stnid": "7588",
@@ -3007,6 +2971,12 @@
             "name": "Woodbine Ave / O'Connor Dr"
         },
         {
+            "stnid": "7603",
+            "lat": "43.707582",
+            "lng": "-79.311439",
+            "name": "O'Connor Dr / Curity Ave - SMART"
+        },
+        {
             "stnid": "7604",
             "lat": "43.705670",
             "lng": "-79.310554",
@@ -3086,21 +3056,15 @@
         },
         {
             "stnid": "7617",
-            "lat": "43.788319",
-            "lng": "-79.123505",
-            "name": "Starspray Ave / Lawrence Ave E"
+            "lat": "43.788525",
+            "lng": "-79.123184",
+            "name": "Starspray Blvd / Lawrence Ave E"
         },
         {
             "stnid": "7618",
             "lat": "43.692683",
             "lng": "-79.441042",
             "name": "Vaughan Rd / Oakwood Ave"
-        },
-        {
-            "stnid": "7619",
-            "lat": "43.704196",
-            "lng": "-79.409447",
-            "name": "Braemar Ave / Eglinton Ave W"
         },
         {
             "stnid": "7620",
@@ -3148,7 +3112,7 @@
             "stnid": "7629",
             "lat": "43.662540",
             "lng": "-79.503016",
-            "name": "Lundy Ave / Etienne Brule Park"
+            "name": "Lundy Ave / Étienne Brûlé Park"
         },
         {
             "stnid": "7630",
@@ -3158,8 +3122,8 @@
         },
         {
             "stnid": "7631",
-            "lat": "43.661547",
-            "lng": "-79.498398",
+            "lat": "43.661966",
+            "lng": "-79.498511",
             "name": "Florence Gell Park"
         },
         {
@@ -3173,12 +3137,6 @@
             "lat": "43.642456",
             "lng": "-79.429635",
             "name": "Noble St / Queen St W"
-        },
-        {
-            "stnid": "7634",
-            "lat": "43.657845",
-            "lng": "-79.389927",
-            "name": "University Ave / Gerrard St W (WEST) - SMART"
         },
         {
             "stnid": "7635",
@@ -3219,8 +3177,8 @@
         {
             "stnid": "7642",
             "lat": "43.688505",
-            "lng": "-79.394005",
-            "name": "Yonge St / St Clair Ave"
+            "lng": "-79.394161",
+            "name": "Yonge St / St. Clair Ave"
         },
         {
             "stnid": "7643",
@@ -3242,8 +3200,8 @@
         },
         {
             "stnid": "7646",
-            "lat": "43.650394",
-            "lng": "-79.386021",
+            "lat": "43.649819",
+            "lng": "-79.386413",
             "name": "University Ave / Richmond St W"
         },
         {
@@ -3251,12 +3209,6 @@
             "lat": "43.656373",
             "lng": "-79.387810",
             "name": "Elm St/ University Ave (East Side)"
-        },
-        {
-            "stnid": "7648",
-            "lat": "43.675153",
-            "lng": "-79.388496",
-            "name": "909 Yonge St"
         },
         {
             "stnid": "7650",
@@ -3349,15 +3301,9 @@
             "name": "Simcoe St / Dundas St W - SMART"
         },
         {
-            "stnid": "7670",
-            "lat": "43.728146",
-            "lng": "-79.403219",
-            "name": "Yonge St / Woburn Ave - SMART"
-        },
-        {
             "stnid": "7671",
-            "lat": "43.709320",
-            "lng": "-79.399630",
+            "lat": "43.709609",
+            "lng": "-79.399151",
             "name": "Yonge St / Montgomery Ave - SMART"
         },
         {
@@ -3392,8 +3338,8 @@
         },
         {
             "stnid": "7680",
-            "lat": "43.633464",
-            "lng": "-79.414306",
+            "lat": "43.633352",
+            "lng": "-79.414363",
             "name": "Princes' Blvd / Nunavut Rd"
         },
         {
@@ -3424,7 +3370,7 @@
             "stnid": "7686",
             "lat": "43.647821",
             "lng": "-79.370472",
-            "name": "Lower Jarvis / The Esplanade"
+            "name": "Lower Jarvis St / The Esplanade"
         },
         {
             "stnid": "7687",
@@ -3437,12 +3383,6 @@
             "lat": "43.644887",
             "lng": "-79.456412",
             "name": "High Park Blvd / Parkside Dr"
-        },
-        {
-            "stnid": "7689",
-            "lat": "43.680012",
-            "lng": "-79.344033",
-            "name": "20 Eaton Ave"
         },
         {
             "stnid": "7691",
@@ -3536,8 +3476,8 @@
         },
         {
             "stnid": "7707",
-            "lat": "43.635495",
-            "lng": "-79.403522",
+            "lat": "43.635007",
+            "lng": "-79.403341",
             "name": "Coronation Park (Martin Goodman Trail)"
         },
         {
@@ -3610,7 +3550,7 @@
             "stnid": "7720",
             "lat": "43.644395",
             "lng": "-79.400654",
-            "name": "King St W / Portland St"
+            "name": "King St W / Portland St - SMART"
         },
         {
             "stnid": "7721",
@@ -3644,9 +3584,9 @@
         },
         {
             "stnid": "7730",
-            "lat": "43.636804",
-            "lng": "-79.408832",
-            "name": "800 Fleet St"
+            "lat": "43.636710",
+            "lng": "-79.408805",
+            "name": "800 Fleet St (South)"
         },
         {
             "stnid": "7731",
@@ -3722,8 +3662,8 @@
         },
         {
             "stnid": "7743",
-            "lat": "43.692632",
-            "lng": "-79.462754",
+            "lat": "43.692547",
+            "lng": "-79.463328",
             "name": "Eglinton Ave W / Gilbert Ave"
         },
         {
@@ -3746,8 +3686,8 @@
         },
         {
             "stnid": "7747",
-            "lat": "43.694660",
-            "lng": "-79.453770",
+            "lat": "43.695032",
+            "lng": "-79.453030",
             "name": "Eglinton Ave W / Ennerdale Rd"
         },
         {
@@ -3794,15 +3734,15 @@
         },
         {
             "stnid": "7755",
-            "lat": "43.635606",
-            "lng": "-79.493462",
+            "lat": "43.636052",
+            "lng": "-79.493252",
             "name": "Park Lawn Rd / Berry Rd"
         },
         {
             "stnid": "7756",
             "lat": "43.761174",
             "lng": "-79.511445",
-            "name": "Tobermory Dr / Finch Hydro Recreational Trail"
+            "name": "Tobermory Dr / Finch Corridor Trail"
         },
         {
             "stnid": "7757",
@@ -3814,7 +3754,7 @@
             "stnid": "7758",
             "lat": "43.760362",
             "lng": "-79.516278",
-            "name": "Driftwood Ave / Finch Hydro Trail"
+            "name": "Driftwood Ave / Finch Corridor Trail"
         },
         {
             "stnid": "7759",
@@ -3866,8 +3806,8 @@
         },
         {
             "stnid": "7769",
-            "lat": "43.591200",
-            "lng": "-79.544491",
+            "lat": "43.591410",
+            "lng": "-79.544182",
             "name": "Lake Shore Blvd W / Brow Dr"
         },
         {
@@ -3878,8 +3818,8 @@
         },
         {
             "stnid": "7771",
-            "lat": "43.673844",
-            "lng": "-79.460926",
+            "lat": "43.673927",
+            "lng": "-79.460685",
             "name": "St. Clair Ave W / Osler St"
         },
         {
@@ -3926,15 +3866,15 @@
         },
         {
             "stnid": "7779",
-            "lat": "43.706562",
-            "lng": "-79.367820",
+            "lat": "43.705875",
+            "lng": "-79.368006",
             "name": "165 McRae Dr"
         },
         {
             "stnid": "7780",
             "lat": "43.700882",
             "lng": "-79.387360",
-            "name": "Mt Pleasant Rd / Davisville Ave - SMART"
+            "name": "Mount Pleasant Rd / Davisville Ave - SMART"
         },
         {
             "stnid": "7781",
@@ -3950,8 +3890,8 @@
         },
         {
             "stnid": "7783",
-            "lat": "43.748297",
-            "lng": "-79.475706",
+            "lat": "43.747964",
+            "lng": "-79.475212",
             "name": "60 Carl Hall Rd - SMART"
         },
         {
@@ -3979,6 +3919,12 @@
             "name": "Queens Quay E / Lower Jarvis St "
         },
         {
+            "stnid": "7789",
+            "lat": "43.706328",
+            "lng": "-79.396250",
+            "name": "75 Holly St"
+        },
+        {
             "stnid": "7790",
             "lat": "43.639125",
             "lng": "-79.414232",
@@ -3992,21 +3938,1173 @@
         },
         {
             "stnid": "7792",
-            "lat": "43.667937",
-            "lng": "-79.353373",
-            "name": "Riverdale Park South (Broadview Ave)"
+            "lat": "43.643141",
+            "lng": "-79.427280",
+            "name": "Gladstone Ave / Queen St W"
         },
         {
             "stnid": "7794",
-            "lat": "43.640741",
-            "lng": "-79.379852",
+            "lat": "43.641017",
+            "lng": "-79.380359",
             "name": "York St / Harbour St (Love Park)"
         },
         {
-            "stnid": "7795",
-            "lat": "43.666851",
-            "lng": "-79.381146",
-            "name": "519 Church St  - SMART"
+            "stnid": "7796",
+            "lat": "43.661152",
+            "lng": "-79.358505",
+            "name": "Dundas St E / River St"
+        },
+        {
+            "stnid": "7798",
+            "lat": "43.659296",
+            "lng": "-79.358035",
+            "name": "Shuter St/River St"
+        },
+        {
+            "stnid": "7799",
+            "lat": "43.693622",
+            "lng": "-79.277105",
+            "name": "Danforth Ave / Danforth Rd"
+        },
+        {
+            "stnid": "7800",
+            "lat": "43.727041",
+            "lng": "-79.243914",
+            "name": "Brimley Rd / McCowan District Park"
+        },
+        {
+            "stnid": "7801",
+            "lat": "43.735967",
+            "lng": "-79.219952",
+            "name": "Parkcrest Dr / Kingston Rd"
+        },
+        {
+            "stnid": "7802",
+            "lat": "43.637358",
+            "lng": "-79.436180",
+            "name": "King St W / Jameson Ave - SMART"
+        },
+        {
+            "stnid": "7803",
+            "lat": "43.715466",
+            "lng": "-79.287660",
+            "name": "Scarborough Soccer Centre"
+        },
+        {
+            "stnid": "7804",
+            "lat": "43.642904",
+            "lng": "-79.437461",
+            "name": "Lansdowne Ave / Seaforth Ave "
+        },
+        {
+            "stnid": "7805",
+            "lat": "43.697356",
+            "lng": "-79.285287",
+            "name": "Pharmacy Ave / Teesdale Pl"
+        },
+        {
+            "stnid": "7806",
+            "lat": "43.706880",
+            "lng": "-79.268510",
+            "name": "Danforth Rd / Birchmount Rd "
+        },
+        {
+            "stnid": "7807",
+            "lat": "43.711763",
+            "lng": "-79.270282",
+            "name": "552 Birchmount Rd"
+        },
+        {
+            "stnid": "7808",
+            "lat": "43.711044",
+            "lng": "-79.291273",
+            "name": "Eastgate Cres / Pharmacy Ave "
+        },
+        {
+            "stnid": "7809",
+            "lat": "43.703211",
+            "lng": "-79.278715",
+            "name": "Firvalley Ct / Warden Ave"
+        },
+        {
+            "stnid": "7810",
+            "lat": "43.669822",
+            "lng": "-79.394446",
+            "name": "Avenue Rd / Cumberland St "
+        },
+        {
+            "stnid": "7811",
+            "lat": "43.712858",
+            "lng": "-79.248709",
+            "name": "Midland Ave / Kingston Rd"
+        },
+        {
+            "stnid": "7812",
+            "lat": "43.732328",
+            "lng": "-79.224966",
+            "name": "Bellamy Rd S / Kingston Rd"
+        },
+        {
+            "stnid": "7813",
+            "lat": "43.696275",
+            "lng": "-79.396294",
+            "name": "Yonge St / Merton St "
+        },
+        {
+            "stnid": "7814",
+            "lat": "43.726902",
+            "lng": "-79.229204",
+            "name": "Fenwood Ht / Kingston Rd"
+        },
+        {
+            "stnid": "7815",
+            "lat": "43.677944",
+            "lng": "-79.398363",
+            "name": "Avenue Rd / Macpherson Ave "
+        },
+        {
+            "stnid": "7816",
+            "lat": "43.655351",
+            "lng": "-79.383460",
+            "name": "Bay St / Dundas St W"
+        },
+        {
+            "stnid": "7817",
+            "lat": "43.641256",
+            "lng": "-79.415030",
+            "name": "Shaw St / King St W"
+        },
+        {
+            "stnid": "7818",
+            "lat": "43.704310",
+            "lng": "-79.397282",
+            "name": "Soudan Ave / Yonge St "
+        },
+        {
+            "stnid": "7819",
+            "lat": "43.697112",
+            "lng": "-79.405373",
+            "name": "Avenue Rd / Oxton Ave "
+        },
+        {
+            "stnid": "7820",
+            "lat": "43.683708",
+            "lng": "-79.322625",
+            "name": "1612 Danforth Ave "
+        },
+        {
+            "stnid": "7821",
+            "lat": "43.642992",
+            "lng": "-79.423559",
+            "name": "Lisgar St / Queen St W - SMART"
+        },
+        {
+            "stnid": "7822",
+            "lat": "43.657275",
+            "lng": "-79.326615",
+            "name": "Leslie St / Commissioners St  "
+        },
+        {
+            "stnid": "7823",
+            "lat": "43.686987",
+            "lng": "-79.334782",
+            "name": "Greenwood Ave / Sammon Ave"
+        },
+        {
+            "stnid": "7824",
+            "lat": "43.711611",
+            "lng": "-79.280556",
+            "name": "Warden Subway Station"
+        },
+        {
+            "stnid": "7825",
+            "lat": "43.745311",
+            "lng": "-79.209707",
+            "name": "Kingston Rd / Scarborough Golf Club Rd"
+        },
+        {
+            "stnid": "7826",
+            "lat": "43.670369",
+            "lng": "-79.327827",
+            "name": "Greenwood Ave / Gerrard St E"
+        },
+        {
+            "stnid": "7827",
+            "lat": "43.679868",
+            "lng": "-79.334246",
+            "name": "Chatham Ave / Byron Ave"
+        },
+        {
+            "stnid": "7828",
+            "lat": "43.716020",
+            "lng": "-79.304709",
+            "name": "Wakunda Pl / O'Connor Dr"
+        },
+        {
+            "stnid": "7829",
+            "lat": "43.711016",
+            "lng": "-79.306757",
+            "name": "Tiago Ave / Westview Blvd"
+        },
+        {
+            "stnid": "7830",
+            "lat": "43.707518",
+            "lng": "-79.302521",
+            "name": "Plaxton Dr / St Clair Ave E"
+        },
+        {
+            "stnid": "7831",
+            "lat": "43.717679",
+            "lng": "-79.299616",
+            "name": "Victoria Park Ave / Edge Park Ave"
+        },
+        {
+            "stnid": "7832",
+            "lat": "43.781877",
+            "lng": "-79.415285",
+            "name": "Finch Subway Station "
+        },
+        {
+            "stnid": "7833",
+            "lat": "43.709258",
+            "lng": "-79.441691",
+            "name": "Glencairn Subway Station"
+        },
+        {
+            "stnid": "7834",
+            "lat": "43.708210",
+            "lng": "-79.456278",
+            "name": "Glen Long Community Centre"
+        },
+        {
+            "stnid": "7835",
+            "lat": "43.707564",
+            "lng": "-79.465715",
+            "name": "Caledonia Rd / Lotherton Pathway"
+        },
+        {
+            "stnid": "7836",
+            "lat": "43.684020",
+            "lng": "-79.452979",
+            "name": "Harvie Ave / Rogers Rd"
+        },
+        {
+            "stnid": "7837",
+            "lat": "43.766664",
+            "lng": "-79.185218",
+            "name": "Ling Rd / Morningside Ave"
+        },
+        {
+            "stnid": "7838",
+            "lat": "43.620526",
+            "lng": "-79.483202",
+            "name": "Lake Shore Blvd W / Legion Rd"
+        },
+        {
+            "stnid": "7839",
+            "lat": "43.598419",
+            "lng": "-79.515611",
+            "name": "Lake Shore Blvd W / Seventeenth St"
+        },
+        {
+            "stnid": "7840",
+            "lat": "43.645389",
+            "lng": "-79.527682",
+            "name": "Mabelle Park"
+        },
+        {
+            "stnid": "7841",
+            "lat": "43.645659",
+            "lng": "-79.523399",
+            "name": "Islington Subway Station (Aberfoyle Cres)"
+        },
+        {
+            "stnid": "7842",
+            "lat": "43.594458",
+            "lng": "-79.533874",
+            "name": "Lake Shore Blvd W / Long Branch Ave"
+        },
+        {
+            "stnid": "7843",
+            "lat": "43.626493",
+            "lng": "-79.503582",
+            "name": "Uno Dr / The Queensway"
+        },
+        {
+            "stnid": "7844",
+            "lat": "43.601915",
+            "lng": "-79.499419",
+            "name": "Second St / Lake Shore Blvd W"
+        },
+        {
+            "stnid": "7845",
+            "lat": "43.601162",
+            "lng": "-79.504160",
+            "name": "Sixth St / Lake Shore Blvd W"
+        },
+        {
+            "stnid": "7846",
+            "lat": "43.642852",
+            "lng": "-79.531995",
+            "name": "Bloor St W / Dundas St W (2)"
+        },
+        {
+            "stnid": "7848",
+            "lat": "43.662736",
+            "lng": "-79.362531",
+            "name": "Gerrard St E / Nasmith Ave "
+        },
+        {
+            "stnid": "7849",
+            "lat": "43.707356",
+            "lng": "-79.437231",
+            "name": "Viewmount Park"
+        },
+        {
+            "stnid": "7850",
+            "lat": "43.646015",
+            "lng": "-79.399605",
+            "name": "Maud St / Adelaide St W"
+        },
+        {
+            "stnid": "7851",
+            "lat": "43.698707",
+            "lng": "-79.475659",
+            "name": "Keele St / Ingram Dr"
+        },
+        {
+            "stnid": "7852",
+            "lat": "43.688153",
+            "lng": "-79.482198",
+            "name": "York Recreation Centre"
+        },
+        {
+            "stnid": "7853",
+            "lat": "43.695498",
+            "lng": "-79.488094",
+            "name": "Trethewey Dr / Black Creek Dr"
+        },
+        {
+            "stnid": "7854",
+            "lat": "43.674346",
+            "lng": "-79.494844",
+            "name": "Jane St / Haney Ave"
+        },
+        {
+            "stnid": "7856",
+            "lat": "43.678276",
+            "lng": "-79.506673",
+            "name": "Scarlett Rd / Old Scarlett Rd "
+        },
+        {
+            "stnid": "7857",
+            "lat": "43.691439",
+            "lng": "-79.469086",
+            "name": "Eglinton Ave W / Venn Cres"
+        },
+        {
+            "stnid": "7858",
+            "lat": "43.681895",
+            "lng": "-79.473638",
+            "name": "Rogers Rd / Bicknell Ave"
+        },
+        {
+            "stnid": "7859",
+            "lat": "43.706191",
+            "lng": "-79.532628",
+            "name": "Mallaby Park "
+        },
+        {
+            "stnid": "7860",
+            "lat": "43.702386",
+            "lng": "-79.525948",
+            "name": "Cruickshank Park"
+        },
+        {
+            "stnid": "7861",
+            "lat": "43.687355",
+            "lng": "-79.506233",
+            "name": "Emmett Ave"
+        },
+        {
+            "stnid": "7862",
+            "lat": "43.691445",
+            "lng": "-79.501546",
+            "name": "Jane St / Weston Rd"
+        },
+        {
+            "stnid": "7863",
+            "lat": "43.706738",
+            "lng": "-79.504775",
+            "name": "Jane St / Queens Dr"
+        },
+        {
+            "stnid": "7864",
+            "lat": "43.665304",
+            "lng": "-79.399383",
+            "name": "Sussex Ave / St George St"
+        },
+        {
+            "stnid": "7865",
+            "lat": "43.690746",
+            "lng": "-79.478201",
+            "name": "2700 Eglinton Ave W"
+        },
+        {
+            "stnid": "7866",
+            "lat": "43.659222",
+            "lng": "-79.442774",
+            "name": "697 Lansdowne Ave "
+        },
+        {
+            "stnid": "7867",
+            "lat": "43.679948",
+            "lng": "-79.389948",
+            "name": "15 Price St "
+        },
+        {
+            "stnid": "7868",
+            "lat": "43.755584",
+            "lng": "-79.474460",
+            "name": "Sheppard Ave W / Chesswood Dr"
+        },
+        {
+            "stnid": "7869",
+            "lat": "43.743866",
+            "lng": "-79.491817",
+            "name": "Sentinel Rd / Sheppard Ave W"
+        },
+        {
+            "stnid": "7870",
+            "lat": "43.725379",
+            "lng": "-79.487197",
+            "name": "Humber River Hospital "
+        },
+        {
+            "stnid": "7871",
+            "lat": "43.702340",
+            "lng": "-79.503474",
+            "name": "Jane St / Lawrence Ave W"
+        },
+        {
+            "stnid": "7872",
+            "lat": "43.759193",
+            "lng": "-79.490010",
+            "name": "Keele St / Catford Rd"
+        },
+        {
+            "stnid": "7873",
+            "lat": "43.760740",
+            "lng": "-79.500027",
+            "name": "Sentinel Rd / Finch Ave W"
+        },
+        {
+            "stnid": "7874",
+            "lat": "43.770867",
+            "lng": "-79.498130",
+            "name": "The Pond Rd / Ian Macdonald Blvd"
+        },
+        {
+            "stnid": "7875",
+            "lat": "43.747515",
+            "lng": "-79.513257",
+            "name": "Oakdale Community Centre"
+        },
+        {
+            "stnid": "7876",
+            "lat": "43.755317",
+            "lng": "-79.517047",
+            "name": "Jane St / Yewtree Blvd"
+        },
+        {
+            "stnid": "7877",
+            "lat": "43.750302",
+            "lng": "-79.515776",
+            "name": "Jane St / Yorkwoods Gt"
+        },
+        {
+            "stnid": "7878",
+            "lat": "43.732628",
+            "lng": "-79.538199",
+            "name": "Weston Rd / Sheppard Ave W"
+        },
+        {
+            "stnid": "7879",
+            "lat": "43.748713",
+            "lng": "-79.541808",
+            "name": "Weston Rd / Lanyard Rd"
+        },
+        {
+            "stnid": "7880",
+            "lat": "43.748454",
+            "lng": "-79.550404",
+            "name": "Lindylou Rd / Lanyard Rd"
+        },
+        {
+            "stnid": "7881",
+            "lat": "43.646430",
+            "lng": "-79.361816",
+            "name": "Queens Quay E / Merchants' Wharf"
+        },
+        {
+            "stnid": "7882",
+            "lat": "43.763770",
+            "lng": "-79.488092",
+            "name": "Tangiers Rd / Finch Ave W"
+        },
+        {
+            "stnid": "7883",
+            "lat": "43.727498",
+            "lng": "-79.327142",
+            "name": "Wynford Heights Cres / Concorde Pl"
+        },
+        {
+            "stnid": "7884",
+            "lat": "43.722112",
+            "lng": "-79.308648",
+            "name": "Bartley Park "
+        },
+        {
+            "stnid": "7885",
+            "lat": "43.721761",
+            "lng": "-79.235914",
+            "name": "Brooklawn Ave / Kingston Rd"
+        },
+        {
+            "stnid": "7886",
+            "lat": "43.759292",
+            "lng": "-79.518374",
+            "name": "Jane St / Finch Ave W"
+        },
+        {
+            "stnid": "7887",
+            "lat": "43.636829",
+            "lng": "-79.408842",
+            "name": "800 Fleet St (North)"
+        },
+        {
+            "stnid": "7888",
+            "lat": "43.662796",
+            "lng": "-79.519598",
+            "name": "The Kingsway / Ashley Rd"
+        },
+        {
+            "stnid": "7889",
+            "lat": "43.660324",
+            "lng": "-79.511544",
+            "name": "Dundas St W / Prince Edward Dr N"
+        },
+        {
+            "stnid": "7890",
+            "lat": "43.710244",
+            "lng": "-79.395787",
+            "name": "60 Broadway Ave"
+        },
+        {
+            "stnid": "7891",
+            "lat": "43.720932",
+            "lng": "-79.349894",
+            "name": "Opposite 1103 Leslie St"
+        },
+        {
+            "stnid": "7892",
+            "lat": "43.712155",
+            "lng": "-79.394259",
+            "name": "Erskine Ave / Redpath Ave"
+        },
+        {
+            "stnid": "7893",
+            "lat": "43.707556",
+            "lng": "-79.342720",
+            "name": "Overlea Blvd / Thorncliffe Park Dr"
+        },
+        {
+            "stnid": "7894",
+            "lat": "43.702417",
+            "lng": "-79.361759",
+            "name": "Millwood Rd / Southvale Dr"
+        },
+        {
+            "stnid": "7895",
+            "lat": "43.671155",
+            "lng": "-79.467016",
+            "name": "Keele St / Lloyd Ave"
+        },
+        {
+            "stnid": "7896",
+            "lat": "43.691050",
+            "lng": "-79.432817",
+            "name": "Arlington Parkette"
+        },
+        {
+            "stnid": "7897",
+            "lat": "43.707225",
+            "lng": "-79.345324",
+            "name": "50 Overlea Blvd"
+        },
+        {
+            "stnid": "7898",
+            "lat": "43.657482",
+            "lng": "-79.389214",
+            "name": "University Ave / Gerrard St W - SMART(South)"
+        },
+        {
+            "stnid": "7899",
+            "lat": "43.660181",
+            "lng": "-79.390833",
+            "name": "Queens Park Cres / College St "
+        },
+        {
+            "stnid": "7900",
+            "lat": "43.656039",
+            "lng": "-79.389704",
+            "name": "Simcoe St / Elm St"
+        },
+        {
+            "stnid": "7901",
+            "lat": "43.649279",
+            "lng": "-79.503130",
+            "name": "Bloor St W / Kingsmill Rd"
+        },
+        {
+            "stnid": "7902",
+            "lat": "43.675532",
+            "lng": "-79.471997",
+            "name": "Gunns Rd / Lavender Creek Trail"
+        },
+        {
+            "stnid": "7903",
+            "lat": "43.670042",
+            "lng": "-79.478942",
+            "name": "St Clair Ave W / Symes Rd"
+        },
+        {
+            "stnid": "7904",
+            "lat": "43.663351",
+            "lng": "-79.413128",
+            "name": "Palmerston Blvd / Lennox St"
+        },
+        {
+            "stnid": "7906",
+            "lat": "43.650298",
+            "lng": "-79.366485",
+            "name": "Princess St / Front St E"
+        },
+        {
+            "stnid": "7907",
+            "lat": "43.664948",
+            "lng": "-79.409470",
+            "name": "365 Lippincott St"
+        },
+        {
+            "stnid": "7909",
+            "lat": "43.705035",
+            "lng": "-79.335473",
+            "name": "E.T Seton Park - South "
+        },
+        {
+            "stnid": "7910",
+            "lat": "43.714306",
+            "lng": "-79.360890",
+            "name": "Eglinton Ave E / Brentcliffe Rd"
+        },
+        {
+            "stnid": "7911",
+            "lat": "43.647969",
+            "lng": "-79.383170",
+            "name": "King St W / York St (2)"
+        },
+        {
+            "stnid": "7912",
+            "lat": "43.640397",
+            "lng": "-79.423742",
+            "name": "Joe Shuster Way / King St W "
+        },
+        {
+            "stnid": "7913",
+            "lat": "43.662453",
+            "lng": "-79.397838",
+            "name": "St. George St / Willcocks St"
+        },
+        {
+            "stnid": "7914",
+            "lat": "43.647043",
+            "lng": "-79.383141",
+            "name": "York St / Wellington St W (2)"
+        },
+        {
+            "stnid": "7915",
+            "lat": "43.682337",
+            "lng": "-79.468059",
+            "name": "Rogers Rd / Watt Ave"
+        },
+        {
+            "stnid": "7916",
+            "lat": "43.648368",
+            "lng": "-79.385351",
+            "name": "University Ave / Pearl St "
+        },
+        {
+            "stnid": "7917",
+            "lat": "43.647818",
+            "lng": "-79.384280",
+            "name": "King St W / University Ave"
+        },
+        {
+            "stnid": "7918",
+            "lat": "43.727622",
+            "lng": "-79.552549",
+            "name": "Albion Rd/ Arcot Blvd"
+        },
+        {
+            "stnid": "7919",
+            "lat": "43.721533",
+            "lng": "-79.545583",
+            "name": "Armel Ct / Albion Rd"
+        },
+        {
+            "stnid": "7920",
+            "lat": "43.729578",
+            "lng": "-79.546998",
+            "name": "75 Tandridge Cres"
+        },
+        {
+            "stnid": "7921",
+            "lat": "43.744453",
+            "lng": "-79.568250",
+            "name": "Islington Ave / Finch Ave W"
+        },
+        {
+            "stnid": "7922",
+            "lat": "43.677290",
+            "lng": "-79.357410",
+            "name": "35 Erindale Ave"
+        },
+        {
+            "stnid": "7923",
+            "lat": "43.697417",
+            "lng": "-79.500798",
+            "name": "Trethewey Dr / Jane St"
+        },
+        {
+            "stnid": "7924",
+            "lat": "43.648131",
+            "lng": "-79.388581",
+            "name": "Duncan St / Adelaide St W - SMART"
+        },
+        {
+            "stnid": "7925",
+            "lat": "43.642813",
+            "lng": "-79.407514",
+            "name": "Niagara St / King St W - SMART"
+        },
+        {
+            "stnid": "7926",
+            "lat": "43.709793",
+            "lng": "-79.363892",
+            "name": "McRae Dr / Laird Dr - SMART"
+        },
+        {
+            "stnid": "7927",
+            "lat": "43.639065",
+            "lng": "-79.410810",
+            "name": "Strachan Ave / East Liberty St - SMART"
+        },
+        {
+            "stnid": "7928",
+            "lat": "43.651053",
+            "lng": "-79.387649",
+            "name": "Simcoe St / Pullan Pl"
+        },
+        {
+            "stnid": "7929",
+            "lat": "43.649354",
+            "lng": "-79.396757",
+            "name": "Spadina Ave / Bulwer St- SMART "
+        },
+        {
+            "stnid": "7930",
+            "lat": "43.639523",
+            "lng": "-79.433960",
+            "name": "Dunn Ave / Queen St W"
+        },
+        {
+            "stnid": "7931",
+            "lat": "43.673392",
+            "lng": "-79.477984",
+            "name": "Symes Rd / Glen Scarlett Rd - SMART"
+        },
+        {
+            "stnid": "7932",
+            "lat": "43.661602",
+            "lng": "-79.338946",
+            "name": "Boston Ave / Queen St E- SMART"
+        },
+        {
+            "stnid": "7933",
+            "lat": "43.657091",
+            "lng": "-79.385937",
+            "name": "Elizabeth St / Elm St"
+        },
+        {
+            "stnid": "7934",
+            "lat": "43.759211",
+            "lng": "-79.409604",
+            "name": "19 Glendora Ave"
+        },
+        {
+            "stnid": "7935",
+            "lat": "43.676185",
+            "lng": "-79.389625",
+            "name": "Ramsden Park"
+        },
+        {
+            "stnid": "7936",
+            "lat": "43.650116",
+            "lng": "-79.379531",
+            "name": "Adelaide St W / Bay St (South)"
+        },
+        {
+            "stnid": "7937",
+            "lat": "43.650380",
+            "lng": "-79.378728",
+            "name": "Adelaide St W / Yonge St"
+        },
+        {
+            "stnid": "7938",
+            "lat": "43.642902",
+            "lng": "-79.399370",
+            "name": "Portland St / Wellington St W"
+        },
+        {
+            "stnid": "7939",
+            "lat": "43.634673",
+            "lng": "-79.408973",
+            "name": "Princes' Gates"
+        },
+        {
+            "stnid": "7940",
+            "lat": "43.706073",
+            "lng": "-79.393562",
+            "name": "Lillian St / Soudan Ave "
+        },
+        {
+            "stnid": "7941",
+            "lat": "43.639547",
+            "lng": "-79.420022",
+            "name": "Hanna Ave / Snooker St"
+        },
+        {
+            "stnid": "7942",
+            "lat": "43.705121",
+            "lng": "-79.389027",
+            "name": "Hillsdale Ave E / Mount Pleasant Rd"
+        },
+        {
+            "stnid": "7943",
+            "lat": "43.652316",
+            "lng": "-79.390912",
+            "name": "OCAD University"
+        },
+        {
+            "stnid": "7944",
+            "lat": "43.659954",
+            "lng": "-79.417874",
+            "name": "Harbord St / Grace St (Bickford Park)"
+        },
+        {
+            "stnid": "7945",
+            "lat": "43.642355",
+            "lng": "-79.395198",
+            "name": "Front St W / Spadina Ave"
+        },
+        {
+            "stnid": "7946",
+            "lat": "43.646667",
+            "lng": "-79.402996",
+            "name": "Richmond St W / Bathurst St"
+        },
+        {
+            "stnid": "7947",
+            "lat": "43.645729",
+            "lng": "-79.409907",
+            "name": "Niagara St / Queen St W "
+        },
+        {
+            "stnid": "7948",
+            "lat": "43.637819",
+            "lng": "-79.400132",
+            "name": "Bathurst St / Housey St"
+        },
+        {
+            "stnid": "7949",
+            "lat": "43.659071",
+            "lng": "-79.352401",
+            "name": "Thompson St / Carroll St"
+        },
+        {
+            "stnid": "7950",
+            "lat": "43.646549",
+            "lng": "-79.415589",
+            "name": "Crawford St / Lobb Ave"
+        },
+        {
+            "stnid": "7951",
+            "lat": "43.637588",
+            "lng": "-79.403142",
+            "name": "Fort York Blvd / Grand Magazine St"
+        },
+        {
+            "stnid": "7952",
+            "lat": "43.649192",
+            "lng": "-79.383632",
+            "name": "Adelaide St W / York St "
+        },
+        {
+            "stnid": "7953",
+            "lat": "43.655057",
+            "lng": "-79.376510",
+            "name": "Church St / Shuter St"
+        },
+        {
+            "stnid": "7954",
+            "lat": "43.653783",
+            "lng": "-79.363360",
+            "name": "Adelaide St E / Parliament St"
+        },
+        {
+            "stnid": "7955",
+            "lat": "43.666205",
+            "lng": "-79.379012",
+            "name": "Wellesley St E / Jarvis St"
+        },
+        {
+            "stnid": "7956",
+            "lat": "43.761741",
+            "lng": "-79.244740",
+            "name": "Benshire Dr / The Meadoway"
+        },
+        {
+            "stnid": "7957",
+            "lat": "43.754049",
+            "lng": "-79.255317",
+            "name": "Brimley Rd / Lawrence Ave E "
+        },
+        {
+            "stnid": "7958",
+            "lat": "43.730036",
+            "lng": "-79.292004",
+            "name": "Centennial College (Ashtonbee Campus)"
+        },
+        {
+            "stnid": "7959",
+            "lat": "43.765073",
+            "lng": "-79.238354",
+            "name": "Bellamy Rd N / The Meadoway"
+        },
+        {
+            "stnid": "7960",
+            "lat": "43.771219",
+            "lng": "-79.229565",
+            "name": "Markham Rd / The Meadoway "
+        },
+        {
+            "stnid": "7961",
+            "lat": "43.776829",
+            "lng": "-79.230500",
+            "name": "Ellesmere Rd / Markham Rd"
+        },
+        {
+            "stnid": "7962",
+            "lat": "43.773273",
+            "lng": "-79.219715",
+            "name": "Slan Ave / Scarborough Golf Club Rd"
+        },
+        {
+            "stnid": "7963",
+            "lat": "43.744208",
+            "lng": "-79.215646",
+            "name": "Cedar Dr / Eglinton Ave E"
+        },
+        {
+            "stnid": "7964",
+            "lat": "43.741906",
+            "lng": "-79.271819",
+            "name": "Kennedy Rd/Ranstone Gdns (Jack Goodlad Park)"
+        },
+        {
+            "stnid": "7965",
+            "lat": "43.736953",
+            "lng": "-79.247984",
+            "name": "Eglinton Ave E / Brimley Rd"
+        },
+        {
+            "stnid": "7966",
+            "lat": "43.673489",
+            "lng": "-79.413395",
+            "name": "Albany Ave / Dupont St"
+        },
+        {
+            "stnid": "7967",
+            "lat": "43.727291",
+            "lng": "-79.252379",
+            "name": "Gordonridge Pl / Danforth Rd"
+        },
+        {
+            "stnid": "7968",
+            "lat": "43.740339",
+            "lng": "-79.239353",
+            "name": "McCowan Rd / Trudelle St"
+        },
+        {
+            "stnid": "7969",
+            "lat": "43.789069",
+            "lng": "-79.393151",
+            "name": "Bayview Ave / Finch Recreational Trail"
+        },
+        {
+            "stnid": "7970",
+            "lat": "43.783873",
+            "lng": "-79.407868",
+            "name": "Willowdale Ave / Bishop Ave "
+        },
+        {
+            "stnid": "7971",
+            "lat": "43.782253",
+            "lng": "-79.423671",
+            "name": "Talbot Rd / Finch Hydro Corridor"
+        },
+        {
+            "stnid": "7972",
+            "lat": "43.742037",
+            "lng": "-79.224887",
+            "name": "Eglinton Ave E / Mason Rd "
+        },
+        {
+            "stnid": "7973",
+            "lat": "43.734582",
+            "lng": "-79.354854",
+            "name": "Lawrence Ave E / Don Mills Trail"
+        },
+        {
+            "stnid": "7974",
+            "lat": "43.776857",
+            "lng": "-79.415116",
+            "name": "Kempford Blvd / Yonge St"
+        },
+        {
+            "stnid": "7975",
+            "lat": "43.769395",
+            "lng": "-79.412665",
+            "name": "Empress Ave / Yonge St"
+        },
+        {
+            "stnid": "7976",
+            "lat": "43.761286",
+            "lng": "-79.410716",
+            "name": "Yonge St / Sheppard Ave E"
+        },
+        {
+            "stnid": "7977",
+            "lat": "43.770379",
+            "lng": "-79.367027",
+            "name": "Leslie Subway Station"
+        },
+        {
+            "stnid": "7978",
+            "lat": "43.767266",
+            "lng": "-79.412635",
+            "name": "Yonge St / North York Blvd"
+        },
+        {
+            "stnid": "7979",
+            "lat": "43.744758",
+            "lng": "-79.353481",
+            "name": "Bond Ave / Don Mills Trail"
+        },
+        {
+            "stnid": "7980",
+            "lat": "43.675973",
+            "lng": "-79.505821",
+            "name": "Scarlett Rd / Clairton Cres"
+        },
+        {
+            "stnid": "7981",
+            "lat": "43.761671",
+            "lng": "-79.352583",
+            "name": "Duncan Mill Rd / Valleybrook Dr"
+        },
+        {
+            "stnid": "7982",
+            "lat": "43.770602",
+            "lng": "-79.459976",
+            "name": "Finch Ave W / Wilmington Ave"
+        },
+        {
+            "stnid": "7983",
+            "lat": "43.754922",
+            "lng": "-79.351748",
+            "name": "York Mills Rd / Lesmill Rd"
+        },
+        {
+            "stnid": "7984",
+            "lat": "43.636756",
+            "lng": "-79.399205",
+            "name": "Lake Shore Blvd W / Bathurst St"
+        },
+        {
+            "stnid": "7985",
+            "lat": "43.768162",
+            "lng": "-79.383121",
+            "name": "Hawksbury Dr / Sheppard Ave E "
+        },
+        {
+            "stnid": "7986",
+            "lat": "43.771148",
+            "lng": "-79.363812",
+            "name": "Sheppard Ave E / Leslie St"
+        },
+        {
+            "stnid": "7987",
+            "lat": "43.773515",
+            "lng": "-79.353062",
+            "name": "Shaughnessy Blvd / Sheppard Ave E"
+        },
+        {
+            "stnid": "7988",
+            "lat": "43.792363",
+            "lng": "-79.358363",
+            "name": "Brahms Ave / Finch Ave E"
+        },
+        {
+            "stnid": "7989",
+            "lat": "43.778886",
+            "lng": "-79.348372",
+            "name": "Don Mills Rd / Fairview Mall Dr"
+        },
+        {
+            "stnid": "7990",
+            "lat": "43.785346",
+            "lng": "-79.353629",
+            "name": "Don Mills Rd / Goodview Rd"
+        },
+        {
+            "stnid": "7991",
+            "lat": "43.738784",
+            "lng": "-79.217465",
+            "name": "Kingston Rd / Markham Rd"
+        },
+        {
+            "stnid": "7992",
+            "lat": "43.708767",
+            "lng": "-79.534452",
+            "name": "Fairglen Cres / Weston Rd"
+        },
+        {
+            "stnid": "7993",
+            "lat": "43.671052",
+            "lng": "-79.409048",
+            "name": "Wells St / Brunswick Ave"
         }
     ]
 }
